@@ -1,0 +1,11 @@
+- The copyright bar at the bottom of every page (Site map, Contact us, Privacy policy, ©) is part of the site footer, not a page block
+- The photo gallery on the gallery pages holds several pieces of one block: fullscreen button, caption bar, photo frame and thumbnail grid are one carousel-gallery block
+- Each web form is one form block: its text boxes, comment box, checkboxes and Submit button are pieces of that one block
+- On the council video pages only the Select a date dropdown is the council-video-picker block; the sidebar title and intro text around it are page text
+- The What Goes Where recycling widget on the garbage and recycling pages is one third-party embed: its title bar, tabs, search box and item links are pieces of one waste-wizard block
+- On /City-Hall/About/Community-Statistics only the data table is a block; the text around it is page text
+- On /Home-Property/Emergency-Preparedness/Snowfall only the map embed is a block; the text and colour legend around it are page text
+- On the homepage, cards-news is only the City News & Events list; the Quick Links & Resources and Council Meetings link lists below it are page text
+- On /City-Hall/Bylaws the lone GO button is part of the bylaw search filter next to it, not a block of its own
+- On /Ubill the Login and search strip at the top is part of the portal header, not a page block
+- The 16 page-not-found pages are broken links that show "Page can't be found"; leave them out of the migration

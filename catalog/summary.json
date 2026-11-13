@@ -1,0 +1,35 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.cnv.org/",
+      "siteName": "www.cnv.org",
+      "analysisDate": "2026-11-13",
+      "rootPageTitle": "City of North Vancouver"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "crawl",
+      "totalPages": 794,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "en",
+          "pages": 794
+        }
+      ],
+      "totalTemplates": 7,
+      "totalBlockTypes": 45,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 45,
+      "pagesAnalyzed": 794,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0,
+      "blockNaming": "applied"
+    },
+    "errors": {
+      "totalCount": 3
+    }
+  }
+}

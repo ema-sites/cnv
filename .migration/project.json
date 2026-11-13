@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "cnv": {
+      "previewOrg": "ema-sites",
+      "previewSite": "cnv",
+      "contentHostUrl": "https://content.da.live/ema-sites/cnv/"
+    }
+  }
+}
