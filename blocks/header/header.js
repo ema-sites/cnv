@@ -9,6 +9,9 @@ async function fetchNav() {
   if (!resp.ok) return null;
   const wrapper = document.createElement('div');
   wrapper.innerHTML = await resp.text();
+  // Document Authoring wraps the label of a list item that has a sub-list in a paragraph
+  // (<li><p><a>…</a></p><ul>…); unwrap it so every menu item is <li><a>…</a>…</li>
+  wrapper.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
   // fragment images are relative to the fragment, not the page
   const base = resp.url.replace(/[^/]*$/, '');
   wrapper.querySelectorAll('img[src]').forEach((img) => {
