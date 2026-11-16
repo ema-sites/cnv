@@ -1,0 +1,21 @@
+.cards-news .cards-news-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cards-news .cards-news-item-body > * {
+  margin: 0;
+}
+
+.cards-news .cards-news-item-title + * {
+  margin-top: 4px;
+}
+
+.cards-news .cards-news-item-cta {
+  display: flex;
+  justify-content: flex-end;
+}

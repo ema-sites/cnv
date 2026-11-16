@@ -1,0 +1,35 @@
+{
+  "variantName": "listing-filter",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field + link",
+    "purpose": "filter bar for a listing: dropdowns (year, status), keyword box and GO button"
+  },
+  "contentPattern": {
+    "structure": "one row per control: select | label | options; keyword | placeholder; button | GO (optional); optional action | listing page URL"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_49808821d5a9",
+    "v_6494bda89082",
+    "v_21b945b31e66",
+    "v_e12d428fc451"
+  ],
+  "usage": {
+    "pageCount": 9,
+    "examplePages": [
+      "http://www.cnv.org/your-government/news-room/news-releases",
+      "https://www.cnv.org/City-Hall/About/Maps/Map-Catalogue",
+      "https://www.cnv.org/City-Hall/Council-Meetings/Council-Agendas,-Minutes-and-Videos",
+      "https://www.cnv.org/City-Hall/News-Room",
+      "https://www.cnv.org/City-Hall/News-Room/CityView-eNewsletter"
+    ],
+    "sourceUrl": "http://www.cnv.org/your-government/news-room/news-releases"
+  },
+  "reuseGuidance": "Use above news, bid notice, map catalogue and bylaw listings. The GO button is part of this block."
+}

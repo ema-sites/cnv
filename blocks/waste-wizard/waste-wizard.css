@@ -1,0 +1,8 @@
+.waste-wizard {
+  width: 100%;
+}
+
+.waste-wizard .waste-wizard-widget {
+  width: 100%;
+  min-height: 400px;
+}

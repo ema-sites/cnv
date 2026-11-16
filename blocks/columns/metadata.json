@@ -1,0 +1,33 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "table",
+    "purpose": "side-by-side columns of text, typically Related Documents and Related Links lists"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell per column (heading and list or text in each)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_f365426fae38",
+    "v_ae57d4d6538a"
+  ],
+  "usage": {
+    "pageCount": 30,
+    "examplePages": [
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings",
+      "https://www.cnv.org/Business-Development/Building/Land-Use-Approvals/Zoning",
+      "https://www.cnv.org/Business-Development/Business-Licences/Food-Trucks",
+      "https://www.cnv.org/Business-Development/Business-Licences/Recreational-Cannabis-Retail",
+      "https://www.cnv.org/Business-Development/Business-Licences/Short-Term-Rentals"
+    ],
+    "sourceUrl": "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings"
+  },
+  "reuseGuidance": "Use for generic multi-column text. For text beside a large photo use columns-media."
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + link",
+    "purpose": "breadcrumb trail (Home > section > current page) shown at the top of content pages"
+  },
+  "contentPattern": {
+    "structure": "one cell holding a list of links ending with the current page name (plain text); an empty block derives the trail from the URL path"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_143a839ccf3e"
+  ],
+  "usage": {
+    "pageCount": 770,
+    "examplePages": [
+      "http://www.cnv.org/parks-recreation-and-culture/community-events",
+      "http://www.cnv.org/your-government/news-room/city-view-e-newsletter-subscription",
+      "http://www.cnv.org/your-government/news-room/cityconnect-subscription",
+      "http://www.cnv.org/your-government/news-room/news-releases",
+      "http://www.cnv.org/Your-Government/Official-Community-Plan"
+    ],
+    "sourceUrl": "http://www.cnv.org/parks-recreation-and-culture/community-events"
+  },
+  "reuseGuidance": "Use once per page above the page title. Not for in-page link lists."
+}

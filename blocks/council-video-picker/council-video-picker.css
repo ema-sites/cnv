@@ -1,0 +1,53 @@
+/* source: label "Select a Date:" wrapping an inline select, #333 Open Sans 14px/22.4px */
+.council-video-picker {
+  color: rgb(51 51 51);
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+/* hug the field like the source's inline label until a video is loaded */
+.council-video-picker:has(.council-video-picker-player:empty) {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.council-video-picker .council-video-picker-field {
+  display: block;
+}
+
+.council-video-picker .council-video-picker-label {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* source select keeps the browser's default control font (not Open Sans) */
+.council-video-picker select {
+  max-width: 100%;
+  font: revert;
+  font-size: 16px;
+}
+
+@media (width >= 900px) {
+  .council-video-picker select {
+    font-size: 14px;
+  }
+}
+
+.council-video-picker .council-video-picker-player:not(:empty) {
+  margin-top: 24px;
+}
+
+.council-video-picker .council-video-picker-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.council-video-picker .council-video-picker-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

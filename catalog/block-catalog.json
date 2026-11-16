@@ -1,7 +1,7 @@
 {
   "block-catalog": {
     "schemaVersion": 2,
-    "captured": "2026-11-13T17:23:58.870Z",
+    "captured": "2026-11-14T01:43:45.565Z",
     "totalBlockVariants": 45,
     "totalBlocksProcessed": 4090,
     "newVariantsCreated": 0,
@@ -36,7 +36,7 @@
         "type": "custom",
         "canonicalModel": "standalone",
         "placedBy": "naming",
-        "pagesFound": 770,
+        "pagesFound": 769,
         "confidenceLevel": "low",
         "confidenceReason": "770 instances are the breadcrumb trail on every page (screenshot), but the 71-instance variant is image + title + LEARN MORE link tiles (cards); both variants share key [Tk] so the group mixes two blocks and needs a split",
         "description": "list + link",
@@ -46,7 +46,6 @@
           ".pages/www_cnv_org_your-government_news-room_cityconnect-subscription--7b8ae097/blocks/63e1c126d16c.jpg",
           ".pages/www_cnv_org_your-government_news-room_news-releases--d023a112/blocks/eef90f13ecc6.jpg",
           ".pages/www_cnv_org_Your-Government_Official-Community-Plan--eb6dd798/blocks/63e1c126d16c.jpg",
-          ".pages/www_cnv_org--a63fb3fa/blocks/af497a7473f8.jpg",
           ".pages/www_cnv_org_BuildingPermits--d444379f/blocks/63e1c126d16c.jpg",
           ".pages/www_cnv_org_Business-Development--3e84c348/blocks/63e1c126d16c.jpg",
           ".pages/www_cnv_org_Business-Development_Bid-Notices--6c3c5a58/blocks/63e1c126d16c.jpg",
@@ -820,13 +819,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Part of the /Ubill portal header, not a page block",
         "description": "field + link",
         "screenshots": [
           ".pages/www_cnv_org_Ubill--cf7cc96a/blocks/321c474526dd.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_21b945b31e66": {
         "id": "v_21b945b31e66",
@@ -982,10 +981,11 @@
         "type": "cards",
         "canonicalModel": "standalone",
         "placedBy": "person",
-        "pagesFound": 46,
+        "pagesFound": 47,
         "description": "link + image",
         "screenshots": [
           ".pages/www_cnv_org_parks-recreation-and-culture_community-events--c7b86b5d/blocks/d7dcd6d23e97.jpg",
+          ".pages/www_cnv_org--a63fb3fa/blocks/af497a7473f8.jpg",
           ".pages/www_cnv_org_Business-Development--3e84c348/blocks/98f1c94fa625.jpg",
           ".pages/www_cnv_org_Business-Development_Building--d1eb1846/blocks/52eb171e67a2.jpg",
           ".pages/www_cnv_org_Business-Development_Building_Land-Use-Approvals_Development-Permits--a5d62e29/blocks/d7dcd6d23e97.jpg",
@@ -1040,13 +1040,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Combined into table-data (default): only the table is the block, the text around it is page text",
         "description": "heading + text + link + table + image + list",
         "screenshots": [
           ".pages/www_cnv_org_City-Hall_About_Community-Statistics--8ecc1fb0/blocks/6d7ca62e772b.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_5e9174a185c6-1": {
         "id": "v_5e9174a185c6-1",
@@ -1055,13 +1055,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Combined into embed-iframe (default): only the map is the block, the text around it is page text",
         "description": "heading + text + link + image + list + video",
         "screenshots": [
           ".pages/www_cnv_org_Home-Property_Emergency-Preparedness_Snowfall--e0706389/blocks/6d7ca62e772b.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_6494bda89082": {
         "id": "v_6494bda89082",
@@ -1083,6 +1083,7 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 3,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "One waste-wizard block that embeds the third-party What Goes Where widget",
         "description": "field + link",
@@ -1090,8 +1091,7 @@
           ".pages/www_cnv_org_city-services_garbage-recycling-and-green-can_recycling--93bdd167/blocks/41aa620f5ed2.jpg",
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Curbside-Collection--44365f3f/blocks/7ec4c0390c3a.jpg",
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Recycling--743df6fd/blocks/41aa620f5ed2.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_7cd1db6d4e45": {
         "id": "v_7cd1db6d4e45",
@@ -1114,13 +1114,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "One waste-wizard block that embeds the third-party What Goes Where widget",
         "description": "list + link",
         "screenshots": [
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Curbside-Collection--44365f3f/blocks/d3191d4948f9.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_8b410c414e48": {
         "id": "v_8b410c414e48",
@@ -1129,14 +1129,14 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 2,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "One waste-wizard block that embeds the third-party What Goes Where widget",
         "description": "button + heading",
         "screenshots": [
           ".pages/www_cnv_org_city-services_garbage-recycling-and-green-can_recycling--93bdd167/blocks/dc2afe4bf298.jpg",
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Recycling--743df6fd/blocks/dc2afe4bf298.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_8b410c414e48-1": {
         "id": "v_8b410c414e48-1",
@@ -1145,13 +1145,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "One waste-wizard block that embeds the third-party What Goes Where widget",
         "description": "button + heading",
         "screenshots": [
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Curbside-Collection--44365f3f/blocks/dc2afe4bf298.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_8eee6be47d52": {
         "id": "v_8eee6be47d52",
@@ -1159,7 +1159,7 @@
         "type": "cards",
         "canonicalModel": "standalone",
         "placedBy": "naming",
-        "pagesFound": 11,
+        "pagesFound": 9,
         "confidenceLevel": "high",
         "confidenceReason": "thumbnail + linked title + summary list items linking to detail pages or documents",
         "description": "link + image",
@@ -1167,10 +1167,8 @@
           ".pages/www_cnv_org_Business-Development_Business-Licences_Outdoor-Dining--8b3650a1/blocks/6d7f97d3b66a.jpg",
           ".pages/www_cnv_org_Business-Development_Filming-In-the-City_Filming-Locations--6e167e9d/blocks/c486e4af3221.jpg",
           ".pages/www_cnv_org_City-Hall_About_Capital-Projects--e45f0537/blocks/4fde93b14fe7.jpg",
-          ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Waste--12a2401d/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_Home-Property_Water-Sewer-Drainage_Drainage_Stormwater-Management-Plan-Requirements-for-New-Development--84f51aa2/blocks/4fde93b14fe7.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Annual-Events_Markets-in-the-City--9a1cb26f/blocks/4fde93b14fe7.jpg",
-          ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Past-Projects--3acc95b4/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Public-Spaces--6d0f563f/blocks/4fde93b14fe7.jpg",
           ".pages/www_cnv_org_Streets-Transportation_Traffic_Electric-Vehicles_Incentive-Programs--14d2e1e1/blocks/3b9450728768.jpg",
           ".pages/www_cnv_org_Streets-Transportation_Transportation-Projects--a5c92bc0/blocks/c17ae2107b8c.jpg",
@@ -1428,6 +1426,7 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 13,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Combined into council-video-picker (default): same date dropdown, surrounding text is page text",
         "description": "link + heading + text + field",
@@ -1445,8 +1444,7 @@
           ".pages/www_cnv_org_City-Hall_Council-Meetings_Council-Agendas_-Minutes-and-Videos_2022-Meetings_Council-Videos--dfed3188/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_City-Hall_Council-Meetings_Council-Agendas_-Minutes-and-Videos_2023-Meetings_Council-Videos--5cb4363d/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_City-Hall_Council-Meetings_Council-Agendas_-Minutes-and-Videos_2025-Meetings_Council-Videos--5b449794/blocks/84667d34527e.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_aa65ccfe0eed-1": {
         "id": "v_aa65ccfe0eed-1",
@@ -1455,13 +1453,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Combined into council-video-picker (default): same date dropdown, surrounding text is page text",
         "description": "link + heading + field",
         "screenshots": [
           ".pages/www_cnv_org_City-Hall_Council-Meetings_Council-Agendas_-Minutes-and-Videos_2024-Meetings_Council-Videos--d4aae79f/blocks/84667d34527e.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_aaabb84e2446": {
         "id": "v_aaabb84e2446",
@@ -2540,6 +2538,7 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 22,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Made page text: coloured sidebar box heading, not a notice",
         "description": "link",
@@ -2566,8 +2565,7 @@
           ".pages/www_cnv_org_SkatePlaza--9f17ee19/blocks/9d603d9f1295.jpg",
           ".pages/www_cnv_org_Streets-Transportation_Transportation-Planning_Mobility-Network--2f7ebd65/blocks/9d603d9f1295.jpg",
           ".pages/www_cnv_org_Streets-Transportation_Transportation-Planning_Safe-Mobility-Strategy--8b2cf7d3/blocks/3eb35a11f9a2.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_be941da5c96f": {
         "id": "v_be941da5c96f",
@@ -2598,8 +2596,9 @@
         "name": "default-content",
         "type": "default-content",
         "canonicalModel": "standalone",
-        "placedBy": "naming",
-        "pagesFound": 425,
+        "placedBy": "person",
+        "pagesFound": 427,
+        "confidenceSource": "catalog",
         "confidenceLevel": "high",
         "confidenceReason": "heading plus bulleted link list an author can just type",
         "description": "list + link",
@@ -2811,6 +2810,7 @@
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Rain-Drains-Creeks--e34d5ffd/blocks/7946c01c4333.jpg",
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Rain-Drains-Creeks_Watersheds-101--5b176399/blocks/129d5352bd5b.jpg",
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Spill-Response--a60c3383/blocks/5dbc69b372cf.jpg",
+          ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Waste--12a2401d/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Waste_Cigarette-Waste--8fcabf0c/blocks/5dbc69b372cf.jpg",
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Waste_Poo-Fairy--5d43a5d5/blocks/5dbc69b372cf.jpg",
           ".pages/www_cnv_org_Community-Environment_Environmental-Protection_Water-Conservation--030e97af/blocks/7946c01c4333.jpg",
@@ -2937,6 +2937,7 @@
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Eastview-Park--bac5af29/blocks/9d4e27a6db21.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Flight-PS752-Memorial--b5232571/blocks/0fb2dcccc38e.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Kings-Mill-Walk-Park-Master-Plan--01cee1a2/blocks/9d4e27a6db21.jpg",
+          ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Past-Projects--3acc95b4/blocks/84667d34527e.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Past-Projects_Greenwood-Park-Kealy-Woods-Park--afe6cea8/blocks/10d1a4f96ad3.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Past-Projects_Park-Recreation-Shelters--f0e1f8a0/blocks/129d5352bd5b.jpg",
           ".pages/www_cnv_org_Parks-Recreation_Parks-Greenways_Park-Projects_Past-Projects_St-Andrews-Park--12aa7a34/blocks/129d5352bd5b.jpg",
@@ -3102,13 +3103,13 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 1,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Combined into listing-filter (default): it is the GO button of the bylaw search",
         "description": "button",
         "screenshots": [
           ".pages/www_cnv_org_City-Hall_Bylaws--2b339f19/blocks/00c385b3e61d.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_e20cd562760d": {
         "id": "v_e20cd562760d",
@@ -3147,14 +3148,14 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 2,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "One waste-wizard block that embeds the third-party What Goes Where widget",
         "description": "link",
         "screenshots": [
           ".pages/www_cnv_org_city-services_garbage-recycling-and-green-can_recycling--93bdd167/blocks/bd4f9b755f18.jpg",
           ".pages/www_cnv_org_Home-Property_Garbage-Recycling-Green-Can_Recycling--743df6fd/blocks/bd4f9b755f18.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_e3e16a083a4a": {
         "id": "v_e3e16a083a4a",
@@ -3214,6 +3215,7 @@
         "canonicalModel": "standalone",
         "placedBy": "person",
         "pagesFound": 13,
+        "confidenceSource": "user",
         "confidenceLevel": "low",
         "confidenceReason": "Made page text: coloured sidebar box heading, not a notice",
         "description": "link",
@@ -3231,8 +3233,7 @@
           ".pages/www_cnv_org_Community-Environment_Social-Planning_Youth_Youth-Awards-Scholarships_Civic-Youth-Awards--82352473/blocks/9d603d9f1295.jpg",
           ".pages/www_cnv_org_Community-Environment_Social-Planning_Youth_Youth-Awards-Scholarships_Youth-Centennial-Scholarship--c86ce8eb/blocks/9d603d9f1295.jpg",
           ".pages/www_cnv_org_Community-Environment_Social-Planning_Youth_Youth-Week--cf601f89/blocks/9d603d9f1295.jpg"
-        ],
-        "confidenceSource": "user"
+        ]
       },
       "v_f08a4b9afde2": {
         "id": "v_f08a4b9afde2",

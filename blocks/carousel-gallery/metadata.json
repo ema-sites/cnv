@@ -1,0 +1,51 @@
+{
+  "variantName": "carousel-gallery",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "",
+    "purpose": "one photo gallery: slideshow frame with prev/next, caption bar with n / total counter, fullscreen toggle and optional thumbnail grid that opens the slideshow as a lightbox"
+  },
+  "contentPattern": {
+    "structure": "one row per photo: image cell | optional caption cell (falls back to the image alt text)"
+  },
+  "options": [
+    {
+      "class": "thumbnails",
+      "label": "Thumbnails"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "dark-grey",
+      "label": "Dark Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "v_aee21fdf388b",
+    "v_e3e16a083a4a",
+    "v_347ffd1128e3",
+    "v_cfff47336677",
+    "v_be941da5c96f",
+    "v_ccd7984651b9",
+    "v_f890e127b278"
+  ],
+  "usage": {
+    "pageCount": 39,
+    "examplePages": [
+      "https://www.cnv.org/Business-Development/Filming-In-the-City/Film-Productions-in-the-City",
+      "https://www.cnv.org/Business-Development/Filming-In-the-City/Filming-Locations/Filming-at-The-Shipyards",
+      "https://www.cnv.org/Business-Development/Projects/North-Shore-Neighbourhood-House-Site-Redevelopment",
+      "https://www.cnv.org/Cemetery",
+      "https://www.cnv.org/City-Hall/About/Capital-Projects/Harry-Jerome-Community-Recreation-Centre/Explore-the-Project"
+    ],
+    "sourceUrl": "https://www.cnv.org/Business-Development/Filming-In-the-City/Film-Productions-in-the-City"
+  },
+  "reuseGuidance": "One block per gallery; the fullscreen button, caption bar, frame and thumbnail grid are parts of this block, never separate blocks. Use carousel-hero for the homepage banner."
+}

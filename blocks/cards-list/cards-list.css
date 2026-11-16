@@ -1,0 +1,77 @@
+/* cards-list: vertical list of teasers, one row per item (thumbnail + linked title + summary) */
+.cards-list {
+  color: rgb(51 51 51);
+}
+
+.cards-list .cards-list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-list .cards-list-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px;
+}
+
+.cards-list .cards-list-item-image {
+  flex: 0 0 auto;
+  width: 215px;
+  max-width: 100%;
+}
+
+.cards-list .cards-list-item-image a,
+.cards-list .cards-list-item-image picture {
+  display: block;
+}
+
+.cards-list .cards-list-item-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cards-list .cards-list-item-body {
+  min-width: 0;
+}
+
+.cards-list .cards-list-item-body h3,
+.cards-list .cards-list-item-body h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cards-list .cards-list-item-body h3 a:any-link,
+.cards-list .cards-list-item-body h4 a:any-link {
+  color: rgb(51 107 152);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.cards-list .cards-list-item-body p {
+  margin: 10px 0 14px;
+  color: rgb(83 83 83);
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.cards-list .cards-list-item-body p a:any-link {
+  color: var(--brand-link);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (width >= 900px) {
+  .cards-list .cards-list-item {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .cards-list .cards-list-item-body {
+    flex: 1 1 auto;
+  }
+}

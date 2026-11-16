@@ -1,0 +1,137 @@
+/* Form block. Field values come from the source captures:
+ * default = Sitecore feedback form textarea (migration-work/design/form),
+ * dark = Mailchimp CityView checkbox list (migration-work/design/form--dark). */
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-text {
+  margin: 0 0 15px;
+}
+
+.form .form-text > :where(:first-child) {
+  margin-top: 0;
+}
+
+.form .form-text > :where(:last-child) {
+  margin-bottom: 0;
+}
+
+/* section headings inside the form: Sitecore form h3 (20px above, 5px to next field).
+ * The first/last-child resets above use :where() so these margins win. */
+.form .form-text > h3 {
+  padding: 0 0 20px;
+  margin: 20px 0 5px;
+  color: var(--brand-subheading);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* form is a flex column (no margin collapsing): the heading's own margins set the gaps */
+.form .form-text:has(> h3:last-child),
+.form form > :has(+ .form-text > h3:first-child) {
+  margin-bottom: 0;
+}
+
+.form .form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.form fieldset.form-field {
+  min-width: 0;
+  padding: 0;
+  margin: 0 0 15px;
+  border: 0;
+}
+
+.form fieldset.form-field legend {
+  padding: 0;
+}
+
+.form .form-field[data-required='true'] > label::after,
+.form .form-field[data-required='true'] > legend::after {
+  content: ' *';
+}
+
+/* text inputs and textarea: Sitecore field box */
+.form input:not([type='checkbox'], [type='radio'], [type='hidden']),
+.form textarea,
+.form select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 562px;
+  padding: 8px 10px;
+  margin: 3px 0 15px;
+  border: 1px solid rgb(68 68 68);
+  border-radius: 0;
+  background-color: rgb(255 255 255);
+  color: rgb(0 0 0);
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+/* checkbox / radio option lists: list padding, native control margins, label inline */
+.form .form-options {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.form .form-checkbox,
+.form .form-radio {
+  display: block;
+}
+
+.form .form-checkbox-wrapper {
+  display: block;
+  margin: 0 0 15px;
+}
+
+.form .form-checkbox label,
+.form .form-radio label,
+.form .form-checkbox-wrapper label {
+  margin-bottom: 3px;
+}
+
+.form .form-submit-wrapper {
+  align-items: flex-start;
+}
+
+.form .form-submit:disabled {
+  opacity: 0.6;
+}
+
+.form .form-status:empty {
+  display: none;
+}
+
+/* dark: Mailchimp embed form typography (#mc_embed_signup) */
+.form.dark {
+  color: var(--brand-text);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.form.dark .form-checkbox,
+.form.dark .form-radio {
+  padding: 3px 0;
+}
+
+.form.dark input:not([type='checkbox'], [type='radio'], [type='hidden']),
+.form.dark textarea,
+.form.dark select {
+  font-family: inherit;
+}

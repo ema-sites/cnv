@@ -1,0 +1,93 @@
+/* grey filter bar (source: .greyBackground on the bylaw search) */
+.listing-filter {
+  background-color: var(--brand-light-grey);
+  padding: 15px;
+}
+
+.listing-filter .listing-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+}
+
+.listing-filter .listing-filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  gap: 12px;
+}
+
+.listing-filter .listing-filter-field {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.listing-filter .listing-filter-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.listing-filter select,
+.listing-filter input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 36px;
+  margin: 0;
+  border: 1px solid var(--brand-grey);
+  border-radius: 0;
+  padding: 4px 8px;
+  background-color: var(--brand-background);
+  color: var(--brand-text);
+  font: inherit;
+}
+
+/* GO button: source button.buttonFilter computed styles */
+main .listing-filter button.listing-filter-submit.button {
+  display: block;
+  box-sizing: border-box;
+  min-width: 60px;
+  height: 36px;
+  margin: 0 15px 0 0;
+  border: 0;
+  border-radius: 0;
+  padding: 12px 20px;
+  background-color: var(--brand-blue);
+  color: #fff;
+  font-family: NovecentowideLightBold, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+main .listing-filter button.listing-filter-submit.button:hover,
+main .listing-filter button.listing-filter-submit.button:focus-visible {
+  background-color: var(--brand-navy);
+  color: #fff;
+}
+
+.listing-filter .listing-filter-status {
+  margin: 12px 0 0;
+}
+
+.listing-filter .listing-filter-status:empty {
+  display: none;
+}
+
+@media (width >= 900px) {
+  .listing-filter .listing-filter-field {
+    flex: 0 1 200px;
+  }
+}

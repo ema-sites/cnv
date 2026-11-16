@@ -1,9 +1,11 @@
 {
+  "type": "da",
   "sites": {
     "cnv": {
       "previewOrg": "ema-sites",
       "previewSite": "cnv",
-      "contentHostUrl": "https://content.da.live/ema-sites/cnv/"
+      "contentHostUrl": "https://content.da.live/ema-sites/cnv/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
     }
   }
 }

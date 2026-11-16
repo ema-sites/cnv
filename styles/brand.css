@@ -1,0 +1,37 @@
+/* cnv.org design tokens, measured from the source (computed styles on content pages) */
+:root {
+  /* colors */
+  --brand-background: #fff;
+  --brand-text: #333;
+  --brand-heading: #1f3349;
+  --brand-subheading: #353535;
+  --brand-link: #438ece;
+  --brand-link-hover: #438ece;
+  --brand-blue: #438ece;
+  --brand-navy: #00467f;
+  --brand-light-blue: #c7d6e3;
+  --brand-light-grey: #f4f4f4;
+  --brand-grey: #d8d8d8;
+
+  /* fonts */
+  --brand-body-font: 'Open Sans', open-sans-fallback, sans-serif;
+  --brand-heading-font: 'Open Sans', open-sans-fallback, sans-serif;
+
+  /* body text */
+  --brand-body-size: 14px;
+  --brand-body-line-height: 22.4px;
+
+  /* headings (desktop) */
+  --brand-h1-size: 40px;
+  --brand-h1-line-height: 43px;
+  --brand-h2-size: 28px;
+  --brand-h2-line-height: 33px;
+  --brand-h3-size: 21px;
+  --brand-h3-line-height: 26px;
+  --brand-h4-size: 15px;
+  --brand-h4-line-height: 21px;
+
+  /* layout */
+  --brand-content-max-width: 1140px;
+  --brand-section-spacing: 30px;
+}

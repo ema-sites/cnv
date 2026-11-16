@@ -1,0 +1,112 @@
+/* columns-media: heading + text beside a photo (source: Sitecore call-out-5050) */
+.columns-media {
+  margin: 20px 0;
+  background-color: rgb(245 245 245);
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.columns-media .columns-media-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-media .columns-media-row + .columns-media-row {
+  margin-top: 20px;
+}
+
+/* mobile: the photo always sits above the text */
+.columns-media .columns-media-image {
+  order: -1;
+}
+
+.columns-media .columns-media-image picture {
+  display: block;
+}
+
+.columns-media .columns-media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-media .columns-media-text {
+  padding: 15px 25px;
+}
+
+.columns-media .columns-media-text h1,
+.columns-media .columns-media-text h2,
+.columns-media .columns-media-text h3,
+.columns-media .columns-media-text h4,
+.columns-media .columns-media-text h5,
+.columns-media .columns-media-text h6 {
+  margin: 0;
+  padding: 11px 0 7px;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.columns-media .columns-media-text p,
+.columns-media .columns-media-text ul,
+.columns-media .columns-media-text ol {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.columns-media .columns-media-text > :last-child {
+  margin-bottom: 16px;
+}
+
+.columns-media .columns-media-text a:any-link {
+  color: var(--link-color);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.columns-media .columns-media-text a:hover {
+  text-decoration: underline;
+}
+
+/* option: image-left-boxed-text (photo left, text in a coloured panel) */
+.columns-media.image-left-boxed-text .columns-media-text {
+  background-color: rgb(244 227 13);
+}
+
+.columns-media.image-left-boxed-text .columns-media-text .columns-media-link {
+  text-align: right;
+}
+
+@media (width >= 900px) {
+  .columns-media .columns-media-row {
+    flex-direction: row;
+    min-height: 222px;
+  }
+
+  .columns-media .columns-media-row > div {
+    box-sizing: border-box;
+    flex: 0 0 50%;
+    min-width: 0;
+  }
+
+  /* desktop keeps the authored order (text | photo or photo | text) */
+  .columns-media .columns-media-image {
+    position: relative;
+    order: 0;
+  }
+
+  .columns-media.image-left-boxed-text .columns-media-image {
+    order: -1;
+  }
+
+  .columns-media .columns-media-image img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}

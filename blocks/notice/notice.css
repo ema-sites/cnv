@@ -1,0 +1,70 @@
+/* notice: bordered callout, values from cnv.org .call-out-info.call-out-icon */
+.notice {
+  display: flex;
+  align-items: flex-start;
+  max-width: calc(100% - 12px);
+  min-height: 36px;
+  margin: 20px 5px;
+  border: 1px solid var(--brand-text);
+  color: var(--brand-text);
+}
+
+/* source: 15px inner padding, icon cell padding 0 32px 0 24px, 40px glyph on a 64px line box */
+.notice .notice-icon {
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  margin: 27px 32px 15px 39px;
+  color: var(--brand-blue);
+}
+
+.notice.orange .notice-icon {
+  color: orange;
+}
+
+.notice.green .notice-icon {
+  color: forestgreen;
+}
+
+.notice .notice-icon img,
+.notice .notice-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.notice .notice-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 15px 15px 15px 0;
+}
+
+.notice .notice-content > :first-child {
+  margin-top: 0;
+}
+
+.notice .notice-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* source keeps an (often empty) title row above the message */
+.notice .notice-content > :first-child:not(h1, h2, h3, h4, h5, h6) {
+  padding-top: 18px;
+}
+
+.notice .notice-content strong {
+  color: var(--brand-subheading);
+}
+
+.notice .notice-content a:any-link {
+  color: var(--brand-link);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .notice {
+    max-width: none;
+  }
+}

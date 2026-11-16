@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image",
+    "purpose": "two columns: heading, text or bullet list beside a large photo"
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: text cell | image cell (either order); with image-left-boxed-text the image shows on the left and the text sits in a coloured panel"
+  },
+  "options": [
+    {
+      "class": "image-left-boxed-text",
+      "label": "Image Left Boxed Text"
+    }
+  ],
+  "memberVariantIds": [
+    "v_f08a4b9afde2",
+    "v_f08a4b9afde2-1"
+  ],
+  "usage": {
+    "pageCount": 7,
+    "examplePages": [
+      "https://www.cnv.org/Business-Development/Filming-In-the-City/Filming-Locations/Filming-at-The-Shipyards",
+      "https://www.cnv.org/City-Hall/About/Capital-Projects/Harry-Jerome-Community-Recreation-Centre/About-the-Centre",
+      "https://www.cnv.org/Community-Environment/Social-Planning/Child-Care",
+      "https://www.cnv.org/Streets-Transportation/Transportation-Planning/Walk-CNV",
+      "https://www.cnv.org/City-Hall/Mayor-Council/Mayor-Linda-Buchanan/Community-Updates"
+    ],
+    "sourceUrl": "https://www.cnv.org/Business-Development/Filming-In-the-City/Filming-Locations/Filming-at-The-Shipyards"
+  },
+  "reuseGuidance": "Use for text beside a single large photo. For plain text columns use columns."
+}

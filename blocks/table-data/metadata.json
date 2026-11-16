@@ -1,0 +1,33 @@
+{
+  "variantName": "table-data",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "table",
+    "purpose": "data table with a header row and striped rows (rates, milestones, dates, documents, statistics)"
+  },
+  "contentPattern": {
+    "structure": "one row per table row, one cell per column; the first row is the header"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_b972cd36c81d",
+    "v_5e9174a185c6"
+  ],
+  "usage": {
+    "pageCount": 183,
+    "examplePages": [
+      "https://www.cnv.org/Business-Development/Building/Development-Cost-Charges",
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings",
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings/Part-3-Buildings",
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings/Part-3-Buildings-Prior-to-November-1st-2023",
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings/Part-9-Buildings"
+    ],
+    "sourceUrl": "https://www.cnv.org/Business-Development/Building/Development-Cost-Charges"
+  },
+  "reuseGuidance": "Use for tabular data only; the text around it is default content. Photo layouts belong in columns-media."
+}

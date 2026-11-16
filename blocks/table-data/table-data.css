@@ -1,0 +1,107 @@
+/* Table Data: navy header row, striped body rows. Phones stack each cell on its own line. */
+.table-data {
+  color: rgb(68 68 68);
+}
+
+.table-data .table-data-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-data table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: rgb(68 68 68);
+  font-family: var(--brand-body-font);
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+/* phones: rows and cells stack */
+.table-data table,
+.table-data thead,
+.table-data tbody,
+.table-data tr,
+.table-data th,
+.table-data td {
+  display: block;
+}
+
+.table-data tr {
+  padding: 10px 0;
+}
+
+.table-data th,
+.table-data td {
+  padding: 4px 10px;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.table-data td a:any-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table-data thead tr {
+  background-color: var(--brand-navy);
+}
+
+.table-data thead th {
+  color: rgb(255 255 255);
+  font-family: NovecentowideLightBold, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.table-data thead th a:any-link {
+  color: inherit;
+}
+
+.table-data tbody tr:nth-child(even) {
+  background-color: rgb(245 245 245);
+}
+
+.table-data.no-zebra-stripes tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.table-data th p,
+.table-data td p {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+.table-data td img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width >= 900px) {
+  .table-data table {
+    display: table;
+  }
+
+  .table-data thead {
+    display: table-header-group;
+  }
+
+  .table-data tbody {
+    display: table-row-group;
+  }
+
+  .table-data tr {
+    display: table-row;
+    padding: 0;
+  }
+
+  .table-data th,
+  .table-data td {
+    display: table-cell;
+    padding: 8px 12px;
+    overflow-wrap: normal;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + image",
+    "purpose": "grid of image tiles with a title, short description and LEARN MORE link"
+  },
+  "contentPattern": {
+    "structure": "one row per card: image cell | body cell (heading, text, LEARN MORE link)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_4ec4ebd616e6"
+  ],
+  "usage": {
+    "pageCount": 46,
+    "examplePages": [
+      "http://www.cnv.org/parks-recreation-and-culture/community-events",
+      "https://www.cnv.org/Business-Development",
+      "https://www.cnv.org/Business-Development/Building",
+      "https://www.cnv.org/Business-Development/Building/Land-Use-Approvals/Development-Permits",
+      "https://www.cnv.org/Business-Development/Economic-Development/Invest"
+    ],
+    "sourceUrl": "http://www.cnv.org/parks-recreation-and-culture/community-events"
+  },
+  "reuseGuidance": "Use for image-on-top teaser tiles in a grid. For thumbnail-beside-text rows use cards-list; for the homepage news list use cards-news."
+}

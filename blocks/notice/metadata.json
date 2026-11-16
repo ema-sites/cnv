@@ -1,0 +1,33 @@
+{
+  "variantName": "notice",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + link",
+    "purpose": "bordered callout with an icon and a status message, optional heading and Learn more link"
+  },
+  "contentPattern": {
+    "structure": "one row: icon cell (:icon:, image or icon name; empty = alert icon) | content cell (optional heading, text, optional link)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_9f5fc5f313eb",
+    "v_9f5fc5f313eb-1"
+  ],
+  "usage": {
+    "pageCount": 198,
+    "examplePages": [
+      "https://www.cnv.org/BuildingPermits",
+      "https://www.cnv.org/Business-Development/Building/Development-Cost-Charges",
+      "https://www.cnv.org/Business-Development/Building/Energy-Efficient-Buildings-Initiative/New-Buildings/Part-9-Buildings",
+      "https://www.cnv.org/Business-Development/Building/Land-Use-Approvals/Active-Applications/1036-Grand-Boulevard",
+      "https://www.cnv.org/Business-Development/Building/Land-Use-Approvals/Active-Applications/114-118-and-122-132-West-15th-Street"
+    ],
+    "sourceUrl": "https://www.cnv.org/BuildingPermits"
+  },
+  "reuseGuidance": "Use for alerts and announcements. Solid coloured header bars are not notices."
+}

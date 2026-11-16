@@ -1,0 +1,34 @@
+{
+  "variantName": "waste-wizard",
+  "baseBlock": "embed",
+  "canonicalModel": "configuration",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field + link",
+    "purpose": "embeds the third-party ReCollect What Goes Where recycling lookup / collection calendar widget (vendor script)"
+  },
+  "contentPattern": {
+    "structure": "optional key/value rows: area | CityNorthVancouver, name | wizard or calendar, page | tabbed_widget, service | waste, script | vendor script URL"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_6cf62fb8fb2b",
+    "v_8b410c414e48",
+    "v_e322f8f5737d",
+    "v_835cbd4d181e",
+    "v_8b410c414e48-1"
+  ],
+  "usage": {
+    "pageCount": 3,
+    "examplePages": [
+      "https://www.cnv.org/city-services/garbage-recycling-and-green-can/recycling",
+      "https://www.cnv.org/Home-Property/Garbage-Recycling-Green-Can/Curbside-Collection",
+      "https://www.cnv.org/Home-Property/Garbage-Recycling-Green-Can/Recycling"
+    ],
+    "sourceUrl": "https://www.cnv.org/city-services/garbage-recycling-and-green-can/recycling"
+  },
+  "reuseGuidance": "One per page, on the garbage and recycling pages. The widget title bar, tabs, search and item links all come from the vendor script; do not rebuild them."
+}

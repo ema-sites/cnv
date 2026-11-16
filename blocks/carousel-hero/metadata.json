@@ -1,0 +1,28 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + image",
+    "purpose": "full-width homepage image slideshow with dot navigation, auto-advancing"
+  },
+  "contentPattern": {
+    "structure": "one row per slide: image cell | optional content cell (heading/text/link; a link alone makes the whole image clickable)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_307943802cee"
+  ],
+  "usage": {
+    "pageCount": 1,
+    "examplePages": [
+      "https://www.cnv.org/"
+    ],
+    "sourceUrl": "https://www.cnv.org/"
+  },
+  "reuseGuidance": "Homepage top banner only. Use carousel-gallery for photo galleries."
+}

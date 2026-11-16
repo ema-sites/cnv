@@ -1,0 +1,28 @@
+{
+  "variantName": "cards-news",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link",
+    "purpose": "homepage City News & Events list: linked headline, one-line summary and READ MORE link per story"
+  },
+  "contentPattern": {
+    "structure": "one row per story: linked title (or heading) | summary | optional READ MORE link (cells may be merged into one); READ MORE defaults to the title link"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_7cd1db6d4e45"
+  ],
+  "usage": {
+    "pageCount": 1,
+    "examplePages": [
+      "https://www.cnv.org/"
+    ],
+    "sourceUrl": "https://www.cnv.org/"
+  },
+  "reuseGuidance": "Only the homepage City News & Events list. The Quick Links & Resources and Council Meetings link lists below it are default content."
+}

@@ -13,3 +13,9 @@ catalog/.pages/
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+migration-work/navigation-validation/
+migration-work/footer-validation/
+
+# generated import artifacts
+tools/importer/reports/
+tools/importer/*.bundle.js
