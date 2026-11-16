@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brand review (current state) · City of North Vancouver</title>
+<!-- stardust:provenance writtenBy=stardust:extract writtenAt=2026-11-16T20:52:00Z againstInput=https://www.cnv.org/ readArtifacts=_brand-extraction.json,_computed-styles.json,pages/index.json,_crawl-log.json -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+<style>
+:root{--primary:#438ece;--navy:#00467f;--ink:#1f3349;--text:#333;--muted:#645f5f;--grey:#d8d8d8;--accent:#00467f}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Open Sans',sans-serif;color:var(--text);font-size:15px;line-height:1.6;background:#fff}
+nav.top{position:sticky;top:0;z-index:5;background:var(--navy);display:flex;gap:4px;flex-wrap:wrap;padding:0 24px}
+nav.top a{color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:14px 12px;letter-spacing:.26px}
+nav.top a:hover{background:rgba(255,255,255,.12)}
+main{max-width:1140px;margin:0 auto;padding:0 24px 64px}
+section{padding:48px 0;border-bottom:1px solid var(--grey)}
+h1{font-weight:300;font-size:44px;color:var(--ink);margin:40px 0 4px;line-height:1.1}
+h2{font-weight:300;font-size:32px;color:var(--ink);margin:0 0 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+h3{font-size:18px;font-weight:700;color:var(--ink);margin:0 0 6px}
+.badge{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;border:1px solid var(--navy);color:var(--navy);padding:2px 8px;border-radius:11px}
+.hero-line{color:var(--accent);font-size:20px;margin:0}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stat{border-top:1px solid var(--primary);background:#f4f4f4;padding:14px 16px}
+.stat b{display:block;font-size:28px;font-weight:300;color:var(--ink)}
+.shot{max-width:420px;border:1px solid var(--grey)}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.sw{border:1px solid var(--grey)}
+.sw i{display:block;height:84px}
+.sw div{padding:10px 12px;font-size:13px}
+.spec{border-bottom:1px solid #eee;padding:10px 0}
+.spec small{display:block;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{border:1px solid var(--grey);border-top:4px solid var(--navy);padding:16px}
+.card p{margin:6px 0}
+.card .src{font-size:12px;color:var(--muted)}
+.pill{display:inline-block;border:1px solid var(--navy);border-radius:999px;padding:2px 12px;margin:2px;font-size:13px;color:var(--navy)}
+.photos{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.photos img{width:100%;height:120px;object-fit:cover}
+footer{background:var(--navy);color:#fff;padding:32px 24px;font-size:13px}
+footer a{color:#fff}
+@media (width < 700px){.stats,.grid2,.photos{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Review sections">
+<a href="#coverage">Coverage</a><a href="#pages">Page</a><a href="#tensions">Tensions</a><a href="#palette">Palette</a><a href="#type">Typography</a><a href="#voice">Voice</a><a href="#photos">Photography</a><a href="#motifs">Motifs</a><a href="#components">Components</a><a href="#logo">Logo</a>
+</nav>
+<main>
+<header>
+<h1>City of North Vancouver</h1>
+<p class="hero-line">City News &amp; Events <span class="mono">(first textual title; the hero copy is baked into banner images)</span></p>
+<p>Official website of the City of North Vancouver, British Columbia, Canada.</p>
+<p class="mono">https://www.cnv.org/ · captured 2026-11-16</p>
+</header>
+
+<section id="coverage">
+<h2>Coverage <span class="badge">home-only</span></h2>
+<div class="stats">
+<div class="stat"><b>1 / 1</b>page extracted (single-page uplift run), live Playwright render, HTTP 200</div>
+<div class="stat"><b>medium</b>wait mode, 2,500 ms; vision check: ok</div>
+<div class="stat"><b>8 colours · 1 family</b>Open Sans 300–700; 20 images, 8 photos saved</div>
+</div>
+<p class="src mono">Source: _crawl-log.json, pages/index.json § _provenance</p>
+</section>
+
+<section id="pages">
+<h2>Page <span class="badge">home-only</span></h2>
+<img class="shot" src="assets/screenshots/index-thumb.png" alt="Full-page capture of the current cnv.org homepage">
+<p>City of North Vancouver · <span class="mono">/</span></p>
+</section>
+
+<section id="tensions">
+<h2>Tensions <span class="badge">observed</span> <span class="badge">synthesized</span></h2>
+<div class="grid2">
+<div class="card"><span class="badge">T-contrast</span><h3>The brand blue fails AA as text</h3><p><code>#438ece</code> is 3.5:1 on white, used for every link and news headline, and as the fill under 13px white nav labels. AA needs 4.5:1. Direct must decide which captured colour carries text.</p><p class="src">Source: _brand-extraction.json § palette[cnv-blue].contrastOnWhite</p></div>
+<div class="card"><span class="badge">T-no-headings</span><h3>No semantic headings</h3><p>0 h1–h6 on the homepage; titles are styled divs and links. Screen-reader users get no outline. The target needs one h1 and an h2 per module.</p><p class="src">Source: _computed-styles.json (headings=0 at 1440 and 360)</p></div>
+<div class="card"><span class="badge">T-img-alt-empty</span><h3>75% of images have empty alt</h3><p>15 of 20, including the text-in-image grant banner ("Apply now! Culture makes the city… deadline Dec 13, 2026") and six icon-only social links with no accessible name.</p><p class="src">Source: pages/index.json § media.imgs</p></div>
+<div class="card"><span class="badge">T-scale</span><h3>Type scale is ad-hoc</h3><p>10 → 11 → 13 → 14 → 16 → 18 → 22 → 30 → 35, no consistent ratio; body at 14px. Direct decides whether to adopt a modular scale.</p><p class="src">Source: _brand-extraction.json § type.scaleAudit</p></div>
+<div class="card"><span class="badge">T-cta-vocab</span><h3>CTA voice is fragmented</h3><p>Learn More (4), Read More (4), both 10px uppercase. Labels carry no destination. Direct picks one voice, ideally descriptive.</p><p class="src">Source: pages/index.json § ctas</p></div>
+<div class="card"><span class="badge">T-color-imbalance</span><h3>Navy is fill-only; ink navy is text-only</h3><p><code>#00467f</code> appears only as the footer fill (the highest-contrast brand colour, never used for text). <code>#1f3349</code> appears only as text.</p><p class="src">Source: _brand-extraction.json § palette[].usedAs</p></div>
+<div class="card"><span class="badge">T-logo-variants</span><h3>One logo variant captured</h3><p>Full-colour PNG (115×85) plus a raster-in-SVG mobile wordmark. No true vector, no reverse version for dark surfaces (the footer uses a separate image).</p><p class="src">Source: _brand-extraction.json § logo</p></div>
+<div class="card"><span class="badge">T-no-tokens</span><h3>No brand token layer</h3><p>The only CSS custom properties are Font Awesome's. Colours and sizes are hard-coded. The target introduces tokens.</p><p class="src">Source: pages/index.json § customProps</p></div>
+<div class="card"><span class="badge">T-temporal</span><h3>Stale and time-bound marks</h3><p>Footer reads "Copyright © 2021". Carousel slide 1 is a dated campaign (deadline Dec 13, 2026) shown as pixels.</p><p class="src">Source: pages/index.json § body, media.imgs[3]</p></div>
+<div class="card"><span class="badge">T-motion</span><h3>Autoplay carousel, no pause</h3><p>4 slides rotate automatically; WCAG 2.2.2 requires a pause control for auto-moving content.</p><p class="src">Source: pages/index.html #banners</p></div>
+</div>
+</section>
+
+<section id="palette">
+<h2>Colour palette <span class="badge">home-only</span></h2>
+<div class="swatches">
+<div class="sw"><i style="background:#438ece"></i><div><b>#438ece</b> primary · CNV blue<br>111 uses · text, link, border, nav fill<br>3.5:1 on white</div></div>
+<div class="sw"><i style="background:#00467f"></i><div><b>#00467f</b> secondary · CNV navy<br>footer fill only<br>9.6:1 on white</div></div>
+<div class="sw"><i style="background:#1f3349"></i><div><b>#1f3349</b> heading · ink navy<br>22 uses · titles<br>12.9:1</div></div>
+<div class="sw"><i style="background:#333"></i><div><b>#333333</b> text<br>14 uses<br>12.6:1</div></div>
+<div class="sw"><i style="background:#645f5f"></i><div><b>#645f5f</b> muted text<br>8 uses · abstracts<br>6.3:1</div></div>
+<div class="sw"><i style="background:#d8d8d8"></i><div><b>#d8d8d8</b> surface · legal band</div></div>
+<div class="sw"><i style="background:#fff"></i><div><b>#ffffff</b> background</div></div>
+<div class="sw"><i style="background:#000"></i><div><b>#000000</b> carousel stage, legal text</div></div>
+</div>
+<p class="src mono">Source: _brand-extraction.json § palette, _computed-styles.json § aggregate.colors</p>
+</section>
+
+<section id="type">
+<h2>Typography <span class="badge">home-only</span> <span class="badge">No modular scale</span></h2>
+<div class="spec" style="font-size:35px;font-weight:300;color:#1f3349;line-height:35px">City News &amp; Events<small>section title · 35/35 · 300 · #1f3349</small></div>
+<div class="spec" style="font-size:22px;color:#438ece;line-height:26px">Get Ready for Winter at The Shipyards<small>news headline · 22/26 · 400 · #438ece</small></div>
+<div class="spec" style="font-size:18px;font-weight:700;color:#1f3349">The Shipyards<small>card title · 18/24 · 700</small></div>
+<div class="spec" style="font-size:14px;line-height:22.4px">Find out what's happening at The Shipyards.<small>body · 14/22.4 · 400 · #333</small></div>
+<div class="spec" style="font-size:13px;font-weight:600;letter-spacing:.26px;background:#438ece;color:#fff;padding:12px">Home &amp; Property<small style="color:#fff">nav · 13/14 · 600 · white on #438ece (3.5:1)</small></div>
+<div class="spec" style="font-size:10px;font-weight:700;letter-spacing:1.5px;color:#438ece">LEARN MORE<small>CTA label · 10px · 700 · uppercase · 1.5px</small></div>
+<p class="src mono">Source: _brand-extraction.json § type.specimens</p>
+</section>
+
+<section id="voice">
+<h2>Voice <span class="badge">home-only</span> <span class="badge">inferred: plain, municipal</span></h2>
+<div class="grid2">
+<div class="card"><h3>Tagline</h3><p>Official website of the City of North Vancouver, British Columbia, Canada.</p></div>
+<div class="card"><h3>First paragraph</h3><p>Find out what's happening at The Shipyards.</p></div>
+</div>
+<p><b>CTA frequency:</b> <span class="pill">Read More · 4</span> <span class="pill">Learn More · 4</span> <span class="pill">Online Services</span> <span class="pill">Apply for Business Licence</span></p>
+<div class="stats"><div class="stat"><b>0%</b>headings uppercase</div><div class="stat"><b>0</b>semantic headings</div><div class="stat"><b>2</b>distinct generic CTA labels</div></div>
+</section>
+
+<section id="photos">
+<h2>Photography <span class="badge">home-only</span></h2>
+<div class="photos">
+<img src="assets/media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg" alt="Aerial view of Lonsdale towers at golden hour">
+<img src="assets/media/2026-SOTS-Homepage-banner.jpg" alt="Crowds at the Shipyards tree lighting">
+<img src="assets/media/2021-Walk-Roll-Ride-_6__website_homepage_banner_1800x460.jpg" alt="People walking and cycling">
+<img src="assets/media/2020-09-09-Pro-MDW-Shipyards-Scenic-Shot_website_Feature_image_344x198-_1_.jpg" alt="The Shipyards">
+</div>
+<p>The City's own photography: places residents know. Shown as a 368px carousel strip and 344×198 thumbnails.</p>
+</section>
+
+<section id="motifs">
+<h2>Motifs <span class="badge">home-only</span></h2>
+<p><span class="pill" style="border-radius:0">0 · cards &amp; images</span> <span class="pill" style="border-radius:11px">11px · carousel control</span> <span class="pill">50% · dots</span> · No shadows · No gradients</p>
+</section>
+
+<section id="components">
+<h2>Components <span class="badge">home-only</span></h2>
+<ul>
+<li><b>Header</b>: utility row (Online Services / Careers / Contact Us), logo, search, 64px blue mega-menu bar (6 sections)</li>
+<li><b>Banner carousel</b>: 4 autoplay slides, 1800×460 art, text in image</li>
+<li><b>Feature cards</b>: 4-up, 344×198 photo, bold title, description, LEARN MORE</li>
+<li><b>News list</b>: 4 items, headline + abstract + READ MORE</li>
+<li><b>Link lists</b>: Quick Links &amp; Resources (8), Council Meetings (4)</li>
+<li><b>Footer</b>: navy band (address, phone, hours, CityConnect, social, Translate) and grey legal band</li>
+</ul>
+</section>
+
+<section id="logo">
+<h2>Logo &amp; favicon <span class="badge">home-only</span></h2>
+<div style="display:flex;gap:24px;align-items:center"><img src="assets/logo.png" alt="City of North Vancouver logo" width="115" height="85"><img src="assets/favicon.png" alt="favicon" width="32" height="32">
+<dl><dt>Source</dt><dd>header img</dd><dt>File</dt><dd>PNG 115×85; mobile SVG wraps a raster</dd><dt>Variants captured</dt><dd>full colour</dd><dt>Variants not captured</dt><dd>reverse, monochrome, true vector</dd></dl></div>
+</section>
+</main>
+<footer><p>This review read _brand-extraction.json, _computed-styles.json, pages/index.json and _crawl-log.json. Badges: home-only = single page; observed = measured; synthesized = derived claim; inferred = judgment call.</p><p>Next: set the redesign direction.</p></footer>
+</body>
+</html>

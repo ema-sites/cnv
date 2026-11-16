@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 2,
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-11-16T20:51:32.138Z",
+    "variant": "A",
+    "againstInput": "https://www.cnv.org/",
+    "readArtifacts": [
+      "stardust/direction.md",
+      "stardust/uplift-improvements.md",
+      "stardust/uplift-questions.md",
+      "stardust/current/_brand-extraction.json"
+    ]
+  },
+  "name": "City of North Vancouver — variant A",
+  "colors": {
+    "cnv-blue": "#438ece",
+    "cnv-navy": "#00467f",
+    "ink-navy": "#1f3349",
+    "text": "#333333",
+    "text-muted": "#645f5f",
+    "rule-grey": "#d8d8d8",
+    "mist": "#f4f4f4",
+    "harbour-light": "#c7d6e3",
+    "paper": "#ffffff"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "clamp(2.25rem, 1.4rem + 3.6vw, 3.25rem)",
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.01em"
+    },
+    "h2": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "clamp(1.75rem, 1.4rem + 1.4vw, 2.0625rem)",
+      "fontWeight": 600,
+      "lineHeight": 1.2
+    },
+    "h3": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "clamp(1.25rem, 1.1rem + 0.6vw, 1.3125rem)",
+      "fontWeight": 600,
+      "lineHeight": 1.3
+    },
+    "lead": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "1.3125rem",
+      "fontWeight": 400,
+      "lineHeight": 1.5
+    },
+    "body": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "1.0625rem",
+      "fontWeight": 400,
+      "lineHeight": 1.6
+    },
+    "small": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "0.9375rem",
+      "fontWeight": 400,
+      "lineHeight": 1.5
+    },
+    "label": {
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontSize": "0.875rem",
+      "fontWeight": 600,
+      "lineHeight": 1.3,
+      "letterSpacing": "0.02em"
+    }
+  },
+  "rounded": {
+    "none": "0",
+    "sm": "4px",
+    "md": "8px",
+    "pill": "999px"
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "6": "24px",
+    "8": "32px",
+    "12": "48px",
+    "16": "64px",
+    "sectionPadding": {
+      "desktop": "64px",
+      "tablet": "48px",
+      "mobile": "40px"
+    },
+    "container": "1200px",
+    "gutter": "clamp(16px, 4vw, 40px)"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.cnv-navy}",
+      "textColor": "{colors.paper}",
+      "typography": "{typography.label}",
+      "rounded": "{rounded.sm}",
+      "padding": "12px 20px",
+      "height": "48px"
+    },
+    "button-secondary": {
+      "backgroundColor": "{colors.paper}",
+      "textColor": "{colors.cnv-navy}",
+      "typography": "{typography.label}",
+      "rounded": "{rounded.sm}",
+      "padding": "12px 20px",
+      "height": "48px"
+    },
+    "card": {
+      "backgroundColor": "{colors.paper}",
+      "textColor": "{colors.text}",
+      "rounded": "{rounded.md}",
+      "padding": "0"
+    },
+    "input": {
+      "backgroundColor": "{colors.paper}",
+      "textColor": "{colors.ink-navy}",
+      "typography": "{typography.body}",
+      "rounded": "{rounded.sm}",
+      "height": "56px"
+    },
+    "badge": {
+      "backgroundColor": "{colors.harbour-light}",
+      "textColor": "{colors.ink-navy}",
+      "typography": "{typography.label}",
+      "rounded": "{rounded.sm}",
+      "padding": "2px 8px"
+    },
+    "link": {
+      "textColor": "{colors.cnv-navy}",
+      "typography": "{typography.body}"
+    }
+  },
+  "extensions": {
+    "colorMeta": {
+      "textOnPaper": {
+        "ink-navy": 12.9,
+        "cnv-navy": 9.62,
+        "text": 12.63,
+        "text-muted": 6.28
+      },
+      "cnv-blue": "accent only: rules, icons, focus ring, tile tints, large text ≥24px bold over navy is NOT allowed (2.75:1); white on cnv-blue only ≥24px bold (3.5:1 passes AA-large).",
+      "navyGround": "paper text on cnv-navy 9.62:1; harbour-light on cnv-navy 6.49:1"
+    },
+    "typographyMeta": {
+      "scale": "modular 1.25 from 17px body (17 → 21 → 26.5 → 33 → 41.5 → 52)",
+      "minimumLabel": "14px",
+      "headingCase": "Sentence case",
+      "family": "Open Sans (pinned)"
+    },
+    "shadows": {
+      "card": "0 1px 2px rgb(31 51 73 / 0.08), 0 4px 16px rgb(31 51 73 / 0.06)",
+      "raised": "0 8px 32px rgb(31 51 73 / 0.14)"
+    },
+    "focus": {
+      "outline": "3px solid #438ece",
+      "offset": "2px"
+    },
+    "breakpoints": {
+      "mobile": "0–599",
+      "tablet": "600–899",
+      "desktop": "900+",
+      "containerMaxWidth": 1200
+    },
+    "componentStyle": {
+      "buttons": "solid navy, 4px radius, 48px tall, sentence case, no uppercase micro-labels",
+      "cards": "photo top 3:2, title h3 navy link (whole card clickable), 8px radius, hairline or soft shadow",
+      "inputs": "56px search field, 2px navy border, magnifier button in navy",
+      "dualCTAPattern": "none"
+    },
+    "systemComponentRoles": {
+      "header": {
+        "purpose": "brand + 6 section mega menu + search + utility links",
+        "position": "top",
+        "constraint": "nav labels ≥ 15px; nav bar on cnv-navy (not cnv-blue) for AA"
+      },
+      "service-router": {
+        "purpose": "top resident tasks + search",
+        "position": "first viewport",
+        "constraint": "present on every variant"
+      },
+      "news-events": {
+        "purpose": "dated news + upcoming events",
+        "position": "mid-page",
+        "constraint": "dates visible"
+      },
+      "footer": {
+        "purpose": "contact, hours, CityConnect sign-up, labelled social, translate, legal",
+        "position": "bottom",
+        "constraint": "current year"
+      }
+    },
+    "iaPriorities": [
+      {
+        "signal": "audience-routing",
+        "evidence": "pages/index.json § ctas — Online Services, Apply for Business Licence, Permits & Inspections, Garbage & Recycling; RFP 5.1 service routing",
+        "preserveAs": "first-viewport",
+        "scope": "home",
+        "mutability": "movable"
+      },
+      {
+        "signal": "search-led-IA",
+        "evidence": "header search box on every page; RFP 5.10",
+        "preserveAs": "first-viewport",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "civic-news",
+        "evidence": "City News & Events section (4 latest) + RFP 5.14",
+        "preserveAs": "above-quick-links",
+        "scope": "home",
+        "mutability": "movable"
+      }
+    ],
+    "voice": {
+      "dos": [
+        "Plain verbs: \"Pay property taxes\", \"Report an issue\"",
+        "Sentence case headings",
+        "Name the destination in every link"
+      ],
+      "donts": [
+        "LEARN MORE / READ MORE",
+        "Marketing superlatives",
+        "Text inside images"
+      ]
+    },
+    "divergence": {
+      "mode": "A (brand-faithful)",
+      "signal": "signal-strong (8 colours, Open Sans named)",
+      "seed": {
+        "decade": {
+          "value": "2025-now",
+          "picked_by": "reasoned: RFP goal \"modern, engaging\""
+        },
+        "craft": {
+          "value": "civic wayfinding",
+          "picked_by": "reasoned: municipal service portal"
+        },
+        "register": {
+          "value": "public-service",
+          "picked_by": "inherited: PRODUCT.md"
+        },
+        "ground_family": {
+          "value": "stark-white",
+          "override": "brand-faithful"
+        }
+      },
+      "font_deck": {
+        "name": "brand-inherited",
+        "picked_by": "user-constraint"
+      },
+      "palette": {
+        "source": "inherited from _brand-extraction.json",
+        "picked_by": "user-constraint"
+      },
+      "brand_faithful_inversions": [
+        {
+          "item": "#ffffff paper and hex tokens kept (impeccable prefers OKLCH, no pure white)",
+          "reason": "Mode A: captured values are the brand source of truth"
+        },
+        {
+          "item": "cnv-blue demoted from text colour to accent",
+          "reason": "AA contrast (3.5:1); colour kept, role changed"
+        },
+        {
+          "item": "nav bar fill moves cnv-blue → cnv-navy",
+          "reason": "white 15px labels need 4.5:1 (navy 9.62:1)"
+        }
+      ],
+      "references_used": [
+        {
+          "name": "GOV.UK",
+          "note": "tasks-first homepage (agent knowledge)"
+        },
+        {
+          "name": "vancouver.ca",
+          "note": "popular services tiles (agent knowledge)"
+        },
+        {
+          "name": "boston.gov",
+          "note": "photo hero with live text (agent knowledge)"
+        }
+      ],
+      "antiToolboxAudit": [
+        {
+          "hit": "icon tile grid for services",
+          "justification": "Civic task routing is the brand job; icons are labelled, not decorative; text label is the primary affordance"
+        },
+        {
+          "hit": "soft card shadows",
+          "justification": "Single low shadow used for clickable cards only; captured site is flat so shadow stays minimal"
+        }
+      ]
+    },
+    "variantRole": {
+      "role": "faithful + improvements",
+      "composition": "captured IA order + service band",
+      "motion": "static",
+      "improvementsApplied": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  "narrative": {
+    "northStar": "Your City Hall, open on your phone.",
+    "keyCharacteristics": [
+      "tasks first",
+      "dated news and events",
+      "own photography",
+      "AA throughout",
+      "calm navy and white with CNV-blue accents"
+    ],
+    "rules": [
+      "CNV blue never carries body-size text",
+      "Every module starts with an h2",
+      "No carousels"
+    ],
+    "dos": [
+      "Whole-card links",
+      "Dates on news",
+      "Real alt text"
+    ],
+    "donts": [
+      "Uppercase 10px labels",
+      "Gradients, glass, pills as decoration",
+      "Text on photos without a scrim"
+    ]
+  }
+}

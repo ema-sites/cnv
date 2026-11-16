@@ -1,0 +1,4 @@
+{"ts":"2026-11-16T20:48:34Z","skill":"stardust:extract","phase":"capture","event":"end","detail":"1/1 live; vision ok"}
+{"ts":"2026-11-16T20:48:34Z","skill":"stardust:uplift","phase":"extract","event":"end","detail":"single-page capture of https://www.cnv.org/"}
+{"ts":"2026-11-16T20:52:23Z","skill":"stardust:direct","phase":"write","event":"end","detail":"Mode A; variants A,B,C; C register arrival"}
+{"ts":"2026-11-16T21:14:19Z","skill":"stardust:prototype","phase":"render","event":"end","detail":"A,B,C rendered; C-cinematic arrival; finish review 2 rounds, no open P0/P1"}

@@ -1,0 +1,291 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-16T20:47:38.200Z",
+    "mode": "descriptive",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json"
+    ]
+  },
+  "colors": {
+    "cnv-blue": "#438ece",
+    "cnv-navy": "#00467f",
+    "ink-navy": "#1f3349",
+    "text": "#333333",
+    "text-muted": "#645f5f",
+    "footer-grey": "#d8d8d8",
+    "background": "#ffffff",
+    "media-black": "#000000"
+  },
+  "typography": {
+    "section-title": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "35px",
+      "fontWeight": 300,
+      "lineHeight": "35px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#1f3349"
+    },
+    "section-title-2": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "30px",
+      "fontWeight": 300,
+      "lineHeight": "35px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#1f3349"
+    },
+    "news-headline": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": 400,
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#438ece"
+    },
+    "card-title": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#1f3349"
+    },
+    "quick-link": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#438ece"
+    },
+    "body": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#333333"
+    },
+    "nav": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": 600,
+      "lineHeight": "14px",
+      "letterSpacing": "0.26px",
+      "textTransform": "none",
+      "color": "#ffffff"
+    },
+    "utility": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "color": "#438ece"
+    },
+    "cta-label": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": 700,
+      "lineHeight": "normal",
+      "letterSpacing": "1.5px",
+      "textTransform": "uppercase",
+      "color": "#438ece"
+    },
+    "legal": {
+      "fontFamily": "Open Sans, sans-serif",
+      "fontSize": "10px",
+      "fontWeight": 400,
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "#000000"
+    }
+  },
+  "rounded": {
+    "none": "0",
+    "control": "11px",
+    "dot": "50%"
+  },
+  "spacing": {
+    "section": "30px",
+    "container": "1140px"
+  },
+  "extensions": {
+    "componentStyle": [
+      {
+        "kind": "header",
+        "notes": "utility row (ONLINE SERVICES / CAREERS / CONTACT US + search) above logo; blue 64px mega-menu bar with 6 sections",
+        "ctas": [
+          "Online Services",
+          "Careers",
+          "Contact Us"
+        ]
+      },
+      {
+        "kind": "footer",
+        "notes": "navy band: logo, address, reception phone, hours, CityConnect newsletter logo, 6 social icons, Google Translate; grey legal band: SITE MAP / CONTACT US / PRIVACY POLICY + copyright 2021"
+      }
+    ],
+    "motifs": {
+      "borderRadius": {
+        "mode": "11px",
+        "values": [
+          {
+            "value": "50%",
+            "count": 8,
+            "where": "carousel dots"
+          },
+          {
+            "value": "11px",
+            "count": 2,
+            "where": "carousel control pill"
+          }
+        ],
+        "cards": "0 (square photo cards)"
+      },
+      "shadows": [],
+      "gradients": [],
+      "patterns": [
+        "photo-card (344x198 image, bold title, 2-line description, uppercase LEARN MORE)",
+        "full-width banner carousel 1800x460 (text baked into image)",
+        "news list (headline link + abstract + READ MORE, hairline separators)",
+        "two-column link list",
+        "solid blue nav bar with white labels",
+        "navy footer band + grey legal band"
+      ]
+    },
+    "voice": {
+      "heroHeadline": "City News & Events",
+      "heroHeadlineNote": "No textual hero: the carousel banners carry all hero copy as pixels (e.g. \"Apply now! CULTURE MAKES THE CITY — PROGRAMMING GRANTS — APPLICATION DEADLINE DEC 13, 2026\"). The first textual heading is the news section title.",
+      "tagline": "Official website of the City of North Vancouver, British Columbia, Canada.",
+      "firstParagraph": "Find out what's happening at The Shipyards.",
+      "ctaSamples": [
+        "Learn More",
+        "Read More",
+        "Online Services",
+        "Apply for Business Licence"
+      ],
+      "linkSamples": [
+        "Apply for Business Licence",
+        "Permits & Inspections",
+        "Garbage & Recycling",
+        "Parks in the City",
+        "Community Events",
+        "Council Meetings"
+      ],
+      "register": "product-civic",
+      "registerNote": "Municipal service portal: task-routing first, civic news second.",
+      "toneGuess": "plain, helpful, municipal; title-case labels; no marketing voice",
+      "heroImage": {
+        "url": "https://www.cnv.org/-/media/City-of-North-Vancouver/Images/Banner-Images/2023-Aerial-Drone-Shots-of-City-(3)_website_homepage_banner_1800x460.jpg",
+        "file": "assets/media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg",
+        "note": "carousel slide 3; slide 1 is a text-in-image grant campaign graphic"
+      },
+      "heroMedium": null,
+      "voiceTable": {
+        "ctaFrequency": [
+          {
+            "label": "Read More",
+            "count": 4
+          },
+          {
+            "label": "Learn More",
+            "count": 4
+          }
+        ],
+        "distinctHeadings": 0,
+        "headingsUppercasePercent": 0
+      }
+    },
+    "photography": {
+      "inventory": [
+        {
+          "file": "assets/media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg",
+          "subject": "golden-hour aerial of Lonsdale towers",
+          "quality": "excellent, own photography"
+        },
+        {
+          "file": "assets/media/2026-SOTS-Homepage-banner.jpg",
+          "subject": "Shine on the Shipyards: tree, crowds, heritage shipyard crane, waterfront",
+          "quality": "excellent, own photography"
+        },
+        {
+          "file": "assets/media/2021-Walk-Roll-Ride-_6__website_homepage_banner_1800x460.jpg",
+          "subject": "active transportation",
+          "quality": "good, own photography"
+        },
+        {
+          "file": "assets/media/2026-11-CNV_GrantProgram_WebpageGraphics_HomepageBanner_v2_CoolWhite1.png",
+          "subject": "illustrated campaign graphic, text in image",
+          "quality": "campaign art (7500x1917 PNG, 3.7 MB)"
+        },
+        {
+          "file": "assets/media/2020-09-09-Pro-MDW-Shipyards-Scenic-Shot_website_Feature_image_344x198-_1_.jpg",
+          "subject": "Shipyards",
+          "quality": "good, cropped to 344x198"
+        },
+        {
+          "file": "assets/media/2026-05-23-Public-Works-Open-House-Operations-Centre-Trucks-_74__website_Feature_image_344x198.jpg",
+          "subject": "public works trucks",
+          "quality": "good"
+        },
+        {
+          "file": "assets/media/2025-07-Curbside-Collection-_15__website_Feature_image_344x198.jpg",
+          "subject": "curbside collection",
+          "quality": "good"
+        },
+        {
+          "file": "assets/media/2014-09-Construction-Pro-CBR-Lonsdale-Avenue-Construction-workers-croppedwebsiteFeatureimage344.jpg",
+          "subject": "roadwork",
+          "quality": "dated (2014)"
+        }
+      ],
+      "note": "Own civic photography, not stock. Rendered at 1440x368 (banner, 25.5% of a 1440 viewport's width-ratio) and 344x198 thumbnails."
+    },
+    "iaOrder": [
+      "utility links + search",
+      "main nav (6 sections)",
+      "banner carousel (4 slides, autoplay)",
+      "four feature cards (The Shipyards, Community Events Calendar, Garbage & Recycling, Roadwork & Construction)",
+      "City News & Events (4 latest)",
+      "Quick Links & Resources (2x4 links)",
+      "Council Meetings (4 links)",
+      "footer"
+    ],
+    "iconFont": {
+      "families": [
+        "Font Awesome 6 Pro"
+      ],
+      "glyphs": [
+        {
+          "class": "has-children",
+          "pseudo": "::after",
+          "codepoint": "U+F105"
+        }
+      ]
+    },
+    "breakpoints": {
+      "containerMaxWidth": 1140,
+      "probeWidth": null,
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1140,
+          "authoredVia": "bootstrap .container",
+          "tier": "observed"
+        }
+      ],
+      "modules": [],
+      "note": "cap-probe not run (single-page uplift); container cap read from the 150px gutters at 1440 (1440-2*150)."
+    }
+  }
+}

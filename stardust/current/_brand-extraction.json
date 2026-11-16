@@ -1,0 +1,488 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-16T20:46:41.764Z",
+    "stardustVersion": "0.10.0",
+    "againstInput": "https://www.cnv.org/",
+    "aggregationScope": "home-only (single-page extract)",
+    "readArtifacts": [
+      "stardust/current/pages/index.json",
+      "stardust/current/_computed-styles.json"
+    ],
+    "notes": [
+      "Single-page run: every token is home-only.",
+      "Logo census returned none; logo captured from the header <img> (alt \"City of North Vancouver logo\").",
+      "Supplementary computed-style probe of named homepage elements (section titles, feature cards, news list, footer bands) at 1440 recorded below with selectors."
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://www.cnv.org",
+      "role": "primary",
+      "pages": 1
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "url": "https://www.cnv.org/-/media/City-of-North-Vancouver/Images/Icons-and-Logos/CNV-logo.png",
+    "alt": "City of North Vancouver logo",
+    "file": "assets/logo.png",
+    "intrinsic": "115x85",
+    "variants": {
+      "captured": [
+        "png full-colour (desktop)",
+        "svg wordmark (mobile, raster-in-svg pattern)"
+      ],
+      "notCaptured": [
+        "monochrome",
+        "inverted/reverse"
+      ]
+    },
+    "sourceSelector": "header img[alt=\"City of North Vancouver logo\"]"
+  },
+  "favicon": {
+    "file": "assets/favicon.png",
+    "url": "https://www.cnv.org/CNV/Images/favicons/favicon-32x32.png"
+  },
+  "palette": [
+    {
+      "value": "#438ece",
+      "role": "primary",
+      "name": "CNV blue",
+      "occurrences": 111,
+      "usedAs": [
+        "text",
+        "link",
+        "border",
+        "background"
+      ],
+      "contrastOnWhite": 3.5,
+      "notes": "nav bar fill (64px, full width), every link, LEARN MORE / READ MORE, news headlines (22px/400). Fails WCAG AA 4.5:1 for normal text.",
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".top-menu-wrapper",
+          "prop": "background-color"
+        },
+        {
+          "url": "https://www.cnv.org/",
+          "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+          "prop": "color"
+        }
+      ]
+    },
+    {
+      "value": "#00467f",
+      "role": "secondary",
+      "name": "CNV navy",
+      "occurrences": 1,
+      "usedAs": [
+        "background"
+      ],
+      "contrastOnWhite": 9.62,
+      "notes": "footer middle band (236px). Used only as a fill.",
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".footer-middle-section",
+          "prop": "background-color"
+        }
+      ]
+    },
+    {
+      "value": "#1f3349",
+      "role": "text-heading",
+      "name": "Ink navy",
+      "occurrences": 22,
+      "usedAs": [
+        "text",
+        "link"
+      ],
+      "contrastOnWhite": 12.9,
+      "notes": "section titles (35px/300, 30px/300) and feature-card titles (18px/700)",
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".firstLineTitle",
+          "prop": "color"
+        },
+        {
+          "url": "https://www.cnv.org/",
+          "selector": "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+          "prop": "color"
+        }
+      ]
+    },
+    {
+      "value": "#333333",
+      "role": "text-primary",
+      "occurrences": 14,
+      "usedAs": [
+        "text"
+      ],
+      "contrastOnWhite": 12.63,
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".featureDescription",
+          "prop": "color"
+        }
+      ]
+    },
+    {
+      "value": "#645f5f",
+      "role": "text-secondary",
+      "occurrences": 8,
+      "usedAs": [
+        "text"
+      ],
+      "contrastOnWhite": 6.28,
+      "notes": "news abstracts",
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".eventAbstract",
+          "prop": "color"
+        }
+      ]
+    },
+    {
+      "value": "#d8d8d8",
+      "role": "surface",
+      "name": "Footer grey",
+      "occurrences": 1,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": ".footer-bottom-section",
+          "prop": "background-color"
+        }
+      ]
+    },
+    {
+      "value": "#ffffff",
+      "role": "background",
+      "occurrences": 34,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": "body",
+          "prop": "background-color"
+        }
+      ]
+    },
+    {
+      "value": "#000000",
+      "role": "surface-media",
+      "occurrences": 20,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "notes": "carousel stage behind banners; footer legal text",
+      "sources": [
+        {
+          "url": "https://www.cnv.org/",
+          "selector": "#banners",
+          "prop": "background-color"
+        }
+      ]
+    }
+  ],
+  "paletteSupplement": {
+    "fromMigratedSiteTokens": {
+      "#c7d6e3": "light blue (content pages)",
+      "#f4f4f4": "light grey (content pages)"
+    },
+    "note": "Seen on content pages during the earlier site migration; not on the homepage capture. Admissible as brand evidence, flagged as not-home."
+  },
+  "type": {
+    "families": [
+      {
+        "family": "Open Sans",
+        "role": "heading+body",
+        "weights": [
+          300,
+          400,
+          600,
+          700
+        ],
+        "source": "Google Fonts (live site loads it)"
+      }
+    ],
+    "headingFamily": "Open Sans",
+    "bodyFamily": "Open Sans",
+    "specimens": [
+      {
+        "role": "section-title",
+        "px": 35,
+        "weight": 300,
+        "lineHeight": "35px",
+        "color": "#1f3349",
+        "text": "City News & Events",
+        "selector": ".firstLineTitle"
+      },
+      {
+        "role": "section-title-2",
+        "px": 30,
+        "weight": 300,
+        "lineHeight": "35px",
+        "color": "#1f3349",
+        "text": "Quick Links & Resources",
+        "selector": ".links-title"
+      },
+      {
+        "role": "news-headline",
+        "px": 22,
+        "weight": 400,
+        "lineHeight": "26px",
+        "color": "#438ece",
+        "text": "Get Ready for Winter at The Shipyards",
+        "selector": ".eventTitle a"
+      },
+      {
+        "role": "card-title",
+        "px": 18,
+        "weight": 700,
+        "lineHeight": "24px",
+        "color": "#1f3349",
+        "text": "The Shipyards",
+        "selector": ".featureTitle a"
+      },
+      {
+        "role": "quick-link",
+        "px": 16,
+        "weight": 400,
+        "lineHeight": "22.4px",
+        "color": "#438ece",
+        "text": "Apply for Business Licence"
+      },
+      {
+        "role": "body",
+        "px": 14,
+        "weight": 400,
+        "lineHeight": "22.4px",
+        "color": "#333333",
+        "text": "Find out what's happening at The Shipyards."
+      },
+      {
+        "role": "nav",
+        "px": 13,
+        "weight": 600,
+        "lineHeight": "14px",
+        "color": "#ffffff",
+        "letterSpacing": "0.26px",
+        "text": "Home & Property"
+      },
+      {
+        "role": "utility",
+        "px": 14,
+        "weight": 400,
+        "transform": "uppercase",
+        "color": "#438ece",
+        "text": "ONLINE SERVICES"
+      },
+      {
+        "role": "cta-label",
+        "px": 10,
+        "weight": 700,
+        "transform": "uppercase",
+        "letterSpacing": "1.5px",
+        "color": "#438ece",
+        "text": "LEARN MORE"
+      },
+      {
+        "role": "legal",
+        "px": 10,
+        "weight": 400,
+        "color": "#000000",
+        "text": "Copyright © 2021, City of North Vancouver"
+      }
+    ],
+    "sizes": [
+      10,
+      11,
+      13,
+      14,
+      16,
+      18,
+      22,
+      30,
+      35
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sequence": "10 → 11 → 13 → 14 → 16 → 18 → 22 → 30 → 35",
+      "note": "ratios 1.1–1.36, no consistent step"
+    },
+    "semanticHeadings": 0,
+    "note": "No h1–h6 elements on the page: every title is a styled div/a. The census counted headings=0 at both widths."
+  },
+  "motifs": {
+    "borderRadius": {
+      "mode": "11px",
+      "values": [
+        {
+          "value": "50%",
+          "count": 8,
+          "where": "carousel dots"
+        },
+        {
+          "value": "11px",
+          "count": 2,
+          "where": "carousel control pill"
+        }
+      ],
+      "cards": "0 (square photo cards)"
+    },
+    "shadows": [],
+    "gradients": [],
+    "patterns": [
+      "photo-card (344x198 image, bold title, 2-line description, uppercase LEARN MORE)",
+      "full-width banner carousel 1800x460 (text baked into image)",
+      "news list (headline link + abstract + READ MORE, hairline separators)",
+      "two-column link list",
+      "solid blue nav bar with white labels",
+      "navy footer band + grey legal band"
+    ]
+  },
+  "iconFont": {
+    "families": [
+      "Font Awesome 6 Pro"
+    ],
+    "glyphs": [
+      {
+        "class": "has-children",
+        "pseudo": "::after",
+        "codepoint": "U+F105"
+      }
+    ]
+  },
+  "voice": {
+    "heroHeadline": "City News & Events",
+    "heroHeadlineNote": "No textual hero: the carousel banners carry all hero copy as pixels (e.g. \"Apply now! CULTURE MAKES THE CITY — PROGRAMMING GRANTS — APPLICATION DEADLINE DEC 13, 2026\"). The first textual heading is the news section title.",
+    "tagline": "Official website of the City of North Vancouver, British Columbia, Canada.",
+    "firstParagraph": "Find out what's happening at The Shipyards.",
+    "ctaSamples": [
+      "Learn More",
+      "Read More",
+      "Online Services",
+      "Apply for Business Licence"
+    ],
+    "linkSamples": [
+      "Apply for Business Licence",
+      "Permits & Inspections",
+      "Garbage & Recycling",
+      "Parks in the City",
+      "Community Events",
+      "Council Meetings"
+    ],
+    "register": "product-civic",
+    "registerNote": "Municipal service portal: task-routing first, civic news second.",
+    "toneGuess": "plain, helpful, municipal; title-case labels; no marketing voice",
+    "heroImage": {
+      "url": "https://www.cnv.org/-/media/City-of-North-Vancouver/Images/Banner-Images/2023-Aerial-Drone-Shots-of-City-(3)_website_homepage_banner_1800x460.jpg",
+      "file": "assets/media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg",
+      "note": "carousel slide 3; slide 1 is a text-in-image grant campaign graphic"
+    },
+    "heroMedium": null,
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "Read More",
+          "count": 4
+        },
+        {
+          "label": "Learn More",
+          "count": 4
+        }
+      ],
+      "distinctHeadings": 0,
+      "headingsUppercasePercent": 0
+    }
+  },
+  "photography": {
+    "inventory": [
+      {
+        "file": "assets/media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg",
+        "subject": "golden-hour aerial of Lonsdale towers",
+        "quality": "excellent, own photography"
+      },
+      {
+        "file": "assets/media/2026-SOTS-Homepage-banner.jpg",
+        "subject": "Shine on the Shipyards: tree, crowds, heritage shipyard crane, waterfront",
+        "quality": "excellent, own photography"
+      },
+      {
+        "file": "assets/media/2021-Walk-Roll-Ride-_6__website_homepage_banner_1800x460.jpg",
+        "subject": "active transportation",
+        "quality": "good, own photography"
+      },
+      {
+        "file": "assets/media/2026-11-CNV_GrantProgram_WebpageGraphics_HomepageBanner_v2_CoolWhite1.png",
+        "subject": "illustrated campaign graphic, text in image",
+        "quality": "campaign art (7500x1917 PNG, 3.7 MB)"
+      },
+      {
+        "file": "assets/media/2020-09-09-Pro-MDW-Shipyards-Scenic-Shot_website_Feature_image_344x198-_1_.jpg",
+        "subject": "Shipyards",
+        "quality": "good, cropped to 344x198"
+      },
+      {
+        "file": "assets/media/2026-05-23-Public-Works-Open-House-Operations-Centre-Trucks-_74__website_Feature_image_344x198.jpg",
+        "subject": "public works trucks",
+        "quality": "good"
+      },
+      {
+        "file": "assets/media/2025-07-Curbside-Collection-_15__website_Feature_image_344x198.jpg",
+        "subject": "curbside collection",
+        "quality": "good"
+      },
+      {
+        "file": "assets/media/2014-09-Construction-Pro-CBR-Lonsdale-Avenue-Construction-workers-croppedwebsiteFeatureimage344.jpg",
+        "subject": "roadwork",
+        "quality": "dated (2014)"
+      }
+    ],
+    "note": "Own civic photography, not stock. Rendered at 1440x368 (banner, 25.5% of a 1440 viewport's width-ratio) and 344x198 thumbnails."
+  },
+  "systemComponents": [
+    {
+      "kind": "header",
+      "notes": "utility row (ONLINE SERVICES / CAREERS / CONTACT US + search) above logo; blue 64px mega-menu bar with 6 sections",
+      "ctas": [
+        "Online Services",
+        "Careers",
+        "Contact Us"
+      ]
+    },
+    {
+      "kind": "footer",
+      "notes": "navy band: logo, address, reception phone, hours, CityConnect newsletter logo, 6 social icons, Google Translate; grey legal band: SITE MAP / CONTACT US / PRIVACY POLICY + copyright 2021"
+    }
+  ],
+  "media": {
+    "imgs": 20,
+    "emptyAlt": 15,
+    "emptyAltPercent": 75,
+    "socialIconsWithoutName": 6,
+    "textInImageBanners": 1
+  },
+  "iaOrder": [
+    "utility links + search",
+    "main nav (6 sections)",
+    "banner carousel (4 slides, autoplay)",
+    "four feature cards (The Shipyards, Community Events Calendar, Garbage & Recycling, Roadwork & Construction)",
+    "City News & Events (4 latest)",
+    "Quick Links & Resources (2x4 links)",
+    "Council Meetings (4 links)",
+    "footer"
+  ]
+}

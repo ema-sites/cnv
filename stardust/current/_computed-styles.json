@@ -1,0 +1,1643 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-16T20:44:08.129Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.cnv.org/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.cnv.org/": {
+      "360": {
+        "title": "City of North Vancouver",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 2955,
+          "visible": 207
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Check out local community events. Don't…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "Get the details on everything waste-rel…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "Get info about current roadwork and con…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "141 West 14th Street North Vancouver BC…",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(1)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Reception: 604-985-7761",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(2)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Hours: Monday to Friday 8:30am to 5:00pm",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(3)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "buttons": [],
+        "links": [
+          {
+            "text": "Online Services",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "count": 3,
+            "color": "rgb(51, 51, 51)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "borderColor": "rgb(51, 51, 51)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "The Spirit of the Season Festival Retur…",
+            "selector": "#banners > div:nth-of-type(2) > a",
+            "count": 17,
+            "color": "rgb(67, 142, 206)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 142, 206)",
+              "borderColor": "rgb(67, 142, 206)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "The Shipyards",
+            "selector": "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+            "count": 4,
+            "color": "rgb(31, 51, 73)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(31, 51, 73)",
+              "borderColor": "rgb(31, 51, 73)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Learn More",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+            "count": 8,
+            "color": "rgb(67, 142, 206)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": null
+          },
+          {
+            "text": "Select Language​▼",
+            "selector": "#google_translate_element > div > div > span > a",
+            "count": 2,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Site Map",
+            "selector": "#ctl36_pnlFooterContent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+            "count": 3,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          }
+        ],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 4,
+            "area": 576,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "11px",
+            "count": 1,
+            "area": 1560,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "area": 1284197,
+            "sources": [
+              "body",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p > span",
+              "#google_translate_element > div > div"
+            ]
+          },
+          {
+            "value": "rgb(160, 187, 220)",
+            "count": 3,
+            "area": 432,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(3)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(0, 70, 127)",
+            "count": 1,
+            "area": 147960,
+            "sources": [
+              "#ctl36_pnlFooterContent > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 94950,
+            "sources": [
+              "#banners > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(243, 242, 242)",
+            "count": 1,
+            "area": 61830,
+            "sources": [
+              "#banners > div:nth-of-type(2) > a > div > div > div"
+            ]
+          },
+          {
+            "value": "rgb(216, 216, 216)",
+            "count": 1,
+            "area": 30960,
+            "sources": [
+              "#ctl36_pnlFooterContent > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(250, 250, 250)",
+            "count": 1,
+            "area": 1936,
+            "sources": [
+              "#header > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(175, 175, 179)",
+            "count": 1,
+            "area": 144,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(67, 142, 206)",
+            "count": 24,
+            "sources": [
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(31, 51, 73)",
+            "count": 7,
+            "sources": [
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle2_0 > a",
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle1_1 > a"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 6,
+            "sources": [
+              "#banners > div:nth-of-type(2) > a > div > div > div > div:nth-of-type(1)",
+              "#banners > div:nth-of-type(2) > a > div > div > div > div:nth-of-type(2)",
+              "#ctl36_pnlFooterContent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(51, 51, 51)",
+            "count": 6,
+            "sources": [
+              "#ctl33_rptQuicklinks1_hplLink_0",
+              "#ctl33_rptQuicklinks1_hplLink_1",
+              "#ctl33_rptQuicklinks1_hplLink_2"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(1)",
+              "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(2)",
+              "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(100, 95, 95)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)",
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)",
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(53, 53, 53)",
+            "count": 1,
+            "sources": [
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p > span"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(67, 142, 206)",
+            "count": 3,
+            "sources": [
+              "#content-columns > div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(1)",
+              "div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(155, 155, 155)",
+            "count": 1,
+            "sources": [
+              "#google_translate_element > div > div"
+            ]
+          }
+        ],
+        "customProps": {
+          "--fa-style-family-brands": {
+            "declared": "\"Font Awesome 6 Brands\"",
+            "computed": "\"Font Awesome 6 Brands\""
+          },
+          "--fa-font-brands": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Brands\""
+          },
+          "--fa-style-family-duotone": {
+            "declared": "\"Font Awesome 6 Duotone\"",
+            "computed": "\"Font Awesome 6 Duotone\""
+          },
+          "--fa-font-duotone": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Duotone\""
+          },
+          "--fa-font-light": {
+            "declared": "normal 300 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 300 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-font-regular": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-font-solid": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-style-family-classic": {
+            "declared": "\"Font Awesome 6 Pro\"",
+            "computed": "\"Font Awesome 6 Pro\""
+          },
+          "--fa-font-thin": {
+            "declared": "normal 100 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 100 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-style-family-sharp": {
+            "declared": "\"Font Awesome 6 Sharp\"",
+            "computed": "\"Font Awesome 6 Sharp\""
+          },
+          "--fa-font-sharp-regular": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Sharp\""
+          },
+          "--fa-font-sharp-solid": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Sharp\""
+          }
+        },
+        "fonts": [
+          {
+            "family": "Font Awesome 6 Brands",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "900",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "100",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Sharp",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Sharp",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "NovecentowideBookRegular",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "NovecentowideLightBold",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "NovecentowideUltraLightBold",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "Font Awesome 6 Brands",
+            "Font Awesome 6 Duotone",
+            "Font Awesome 6 Pro",
+            "Font Awesome 5 Brands",
+            "Font Awesome 5 Pro",
+            "Font Awesome 5 Duotone",
+            "FontAwesome",
+            "Font Awesome 6 Sharp"
+          ],
+          "glyphs": [
+            {
+              "class": "has-children",
+              "pseudo": "::after",
+              "codepoint": "U+F105",
+              "fontFamily": "\"Font Awesome 6 Pro\""
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.cnv.org/"
+      },
+      "1440": {
+        "title": "City of North Vancouver",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 2955,
+          "visible": 219
+        },
+        "occluders": [],
+        "headings": [],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Check out local community events. Don't…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "Get the details on everything waste-rel…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "Get info about current roadwork and con…",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(51, 51, 51)"
+          },
+          {
+            "tag": "p",
+            "text": "141 West 14th Street North Vancouver BC…",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(1)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Reception: 604-985-7761",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(2)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Hours: Monday to Friday 8:30am to 5:00pm",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(3)",
+            "fontFamily": "\"Open Sans\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "buttons": [],
+        "links": [
+          {
+            "text": "Online Services",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "count": 20,
+            "color": "rgb(67, 142, 206)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 142, 206)",
+              "borderColor": "rgb(67, 142, 206)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Home & Property",
+            "selector": "#ctl34_topMenu > li:nth-of-type(1) > a",
+            "count": 6,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "600",
+            "hover": {
+              "backgroundColor": "rgb(0, 70, 127)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "The Shipyards",
+            "selector": "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+            "count": 4,
+            "color": "rgb(31, 51, 73)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(31, 51, 73)",
+              "borderColor": "rgb(31, 51, 73)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Learn More",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+            "count": 8,
+            "color": "rgb(67, 142, 206)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": null
+          },
+          {
+            "text": "Select Language​▼",
+            "selector": "#google_translate_element > div > div > span > a",
+            "count": 2,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Site Map",
+            "selector": "#ctl36_pnlFooterContent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+            "count": 3,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          }
+        ],
+        "surfaces": [],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 4,
+            "area": 576,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "11px",
+            "count": 1,
+            "area": 1560,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "area": 2841199,
+            "sources": [
+              "body",
+              "#ctl33_txtHeaderSearch",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p > span"
+            ]
+          },
+          {
+            "value": "rgb(160, 187, 220)",
+            "count": 3,
+            "area": 432,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(3)",
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 529920,
+            "sources": [
+              "#banners > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(0, 70, 127)",
+            "count": 1,
+            "area": 339840,
+            "sources": [
+              "#ctl36_pnlFooterContent > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.75)",
+            "count": 1,
+            "area": 106800,
+            "sources": [
+              "#banners > div:nth-of-type(2) > a > div > div > div"
+            ]
+          },
+          {
+            "value": "rgb(67, 142, 206)",
+            "count": 1,
+            "area": 92160,
+            "sources": [
+              "#header > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(216, 216, 216)",
+            "count": 1,
+            "area": 72000,
+            "sources": [
+              "#ctl36_pnlFooterContent > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(190, 190, 190)",
+            "count": 1,
+            "area": 1188,
+            "sources": [
+              "#btnTopSearchGo"
+            ]
+          },
+          {
+            "value": "rgb(175, 175, 179)",
+            "count": 1,
+            "area": 144,
+            "sources": [
+              "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(67, 142, 206)",
+            "count": 27,
+            "sources": [
+              "#ctl33_rptQuicklinks1_hplLink_0",
+              "#ctl33_rptQuicklinks1_hplLink_1",
+              "#ctl33_rptQuicklinks1_hplLink_2"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 11,
+            "sources": [
+              "#ctl34_topMenu > li:nth-of-type(1) > a",
+              "#ctl34_topMenu > li:nth-of-type(2) > a",
+              "#ctl34_topMenu > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(31, 51, 73)",
+            "count": 7,
+            "sources": [
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle2_0 > a",
+              "#phcontent_0_ctl01_rptFeatures_pnlTitle1_1 > a"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 6,
+            "sources": [
+              "#banners > div:nth-of-type(2) > a > div > div > div > div:nth-of-type(1)",
+              "#banners > div:nth-of-type(2) > a > div > div > div > div:nth-of-type(2)",
+              "#ctl36_pnlFooterContent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(100, 95, 95)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)",
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)",
+              "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(51, 51, 51)",
+            "count": 3,
+            "sources": [
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(53, 53, 53)",
+            "count": 1,
+            "sources": [
+              "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p > span"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(67, 142, 206)",
+            "count": 3,
+            "sources": [
+              "#content-columns > div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(1)",
+              "div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(155, 155, 155)",
+            "count": 1,
+            "sources": [
+              "#google_translate_element > div > div"
+            ]
+          },
+          {
+            "value": "rgb(194, 194, 194)",
+            "count": 1,
+            "sources": [
+              "#ctl33_txtHeaderSearch"
+            ]
+          }
+        ],
+        "customProps": {
+          "--fa-style-family-brands": {
+            "declared": "\"Font Awesome 6 Brands\"",
+            "computed": "\"Font Awesome 6 Brands\""
+          },
+          "--fa-font-brands": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Brands\""
+          },
+          "--fa-style-family-duotone": {
+            "declared": "\"Font Awesome 6 Duotone\"",
+            "computed": "\"Font Awesome 6 Duotone\""
+          },
+          "--fa-font-duotone": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Duotone\""
+          },
+          "--fa-font-light": {
+            "declared": "normal 300 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 300 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-font-regular": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-font-solid": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-style-family-classic": {
+            "declared": "\"Font Awesome 6 Pro\"",
+            "computed": "\"Font Awesome 6 Pro\""
+          },
+          "--fa-font-thin": {
+            "declared": "normal 100 1em/1 \"Font Awesome 6 Pro\"",
+            "computed": "normal 100 1em/1 \"Font Awesome 6 Pro\""
+          },
+          "--fa-style-family-sharp": {
+            "declared": "\"Font Awesome 6 Sharp\"",
+            "computed": "\"Font Awesome 6 Sharp\""
+          },
+          "--fa-font-sharp-regular": {
+            "declared": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+            "computed": "normal 400 1em/1 \"Font Awesome 6 Sharp\""
+          },
+          "--fa-font-sharp-solid": {
+            "declared": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+            "computed": "normal 900 1em/1 \"Font Awesome 6 Sharp\""
+          }
+        },
+        "fonts": [
+          {
+            "family": "Font Awesome 6 Brands",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "900",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Font Awesome 6 Pro",
+            "weight": "100",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Brands",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Pro",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 5 Duotone",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "FontAwesome",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Sharp",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Font Awesome 6 Sharp",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "NovecentowideBookRegular",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "NovecentowideLightBold",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "NovecentowideUltraLightBold",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [],
+        "iconFont": {
+          "families": [
+            "Font Awesome 6 Brands",
+            "Font Awesome 6 Duotone",
+            "Font Awesome 6 Pro",
+            "Font Awesome 5 Brands",
+            "Font Awesome 5 Pro",
+            "Font Awesome 5 Duotone",
+            "FontAwesome",
+            "Font Awesome 6 Sharp"
+          ],
+          "glyphs": [
+            {
+              "class": "has-children",
+              "pseudo": "::after",
+              "codepoint": "U+F105",
+              "fontFamily": "\"Font Awesome 6 Pro\""
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.cnv.org/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#438ece",
+        "values": [
+          "rgb(67, 142, 206)"
+        ],
+        "weight": 111,
+        "bgArea": 92160,
+        "by": {
+          "text": 51,
+          "link": 53,
+          "border": 6,
+          "background": 1
+        },
+        "roles": [
+          "text",
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#banners > div:nth-of-type(2) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)",
+          "rgb(250, 250, 250)"
+        ],
+        "weight": 34,
+        "bgArea": 4127332,
+        "by": {
+          "text": 16,
+          "link": 10,
+          "background": 8
+        },
+        "roles": [
+          "background"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl34_topMenu > li:nth-of-type(1) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl34_topMenu > li:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > div > p:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "body",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#google_translate_element > div > div > span > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#1f3349",
+        "values": [
+          "rgb(31, 51, 73)"
+        ],
+        "weight": 22,
+        "by": {
+          "text": 14,
+          "link": 8
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_rptFeatures_pnlTitle1_0 > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 20,
+        "bgArea": 624870,
+        "by": {
+          "text": 12,
+          "link": 6,
+          "background": 2
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#banners > div:nth-of-type(2) > a > div > div > div > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl36_pnlFooterContent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#banners > div:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#333333",
+        "values": [
+          "rgb(51, 51, 51)",
+          "rgb(53, 53, 53)"
+        ],
+        "weight": 14,
+        "by": {
+          "text": 11,
+          "link": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl33_rptQuicklinks1_hplLink_0",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#phcontent_0_ctl01_pnlFeatureListing > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#645f5f",
+        "values": [
+          "rgb(100, 95, 95)"
+        ],
+        "weight": 8,
+        "by": {
+          "text": 8
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#a0bbdc",
+        "values": [
+          "rgb(160, 187, 220)"
+        ],
+        "weight": 6,
+        "bgArea": 864,
+        "by": {
+          "background": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#00467f",
+        "values": [
+          "rgb(0, 70, 127)"
+        ],
+        "weight": 2,
+        "bgArea": 487800,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl36_pnlFooterContent > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#9b9b9b",
+        "values": [
+          "rgb(155, 155, 155)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#google_translate_element > div > div",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#afafb3",
+        "values": [
+          "rgb(175, 175, 179)"
+        ],
+        "weight": 2,
+        "bgArea": 288,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#bebebe",
+        "values": [
+          "rgb(190, 190, 190)",
+          "rgb(194, 194, 194)"
+        ],
+        "weight": 2,
+        "bgArea": 1188,
+        "by": {
+          "background": 1,
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#btnTopSearchGo",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl33_txtHeaderSearch",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#d8d8d8",
+        "values": [
+          "rgb(216, 216, 216)"
+        ],
+        "weight": 2,
+        "bgArea": 102960,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#ctl36_pnlFooterContent > div:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#f3f2f2",
+        "values": [
+          "rgb(243, 242, 242)"
+        ],
+        "weight": 1,
+        "bgArea": 61830,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#banners > div:nth-of-type(2) > a > div > div > div",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffffbf",
+        "values": [
+          "rgba(255, 255, 255, 0.75)"
+        ],
+        "weight": 1,
+        "bgArea": 106800,
+        "by": {
+          "background": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.cnv.org/",
+            "selector": "#banners > div:nth-of-type(2) > a > div > div > div",
+            "prop": "background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Open Sans",
+          "count": 12,
+          "headings": 0,
+          "text": 12,
+          "buttons": 0
+        }
+      ],
+      "headingFamily": "Open Sans",
+      "bodyFamily": "Open Sans",
+      "sizes": [
+        {
+          "px": 14,
+          "count": 12,
+          "headings": 0,
+          "text": 12,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 12,
+          "headings": 0,
+          "text": 12,
+          "buttons": 0
+        }
+      ],
+      "levels": {}
+    },
+    "motifs": {
+      "radius": {
+        "mode": "11px",
+        "areaMode": "11px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "50%",
+            "count": 8,
+            "area": 1152,
+            "sources": [
+              {
+                "url": "https://www.cnv.org/",
+                "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.cnv.org/",
+                "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.cnv.org/",
+                "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1) > a:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "11px",
+            "count": 2,
+            "area": 3120,
+            "sources": [
+              {
+                "url": "https://www.cnv.org/",
+                "selector": "#home-top-banner > div:nth-of-type(1) > div > div:nth-of-type(1)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [],
+      "gradients": []
+    },
+    "hover": [],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "Font Awesome 5 Brands",
+        "Font Awesome 5 Duotone",
+        "Font Awesome 5 Pro",
+        "Font Awesome 6 Brands",
+        "Font Awesome 6 Duotone",
+        "Font Awesome 6 Pro",
+        "Font Awesome 6 Sharp",
+        "FontAwesome"
+      ],
+      "glyphs": [
+        {
+          "class": "has-children",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "\"Font Awesome 6 Pro\"",
+          "count": 2,
+          "sources": [
+            "https://www.cnv.org/",
+            "https://www.cnv.org/"
+          ]
+        }
+      ]
+    }
+  }
+}

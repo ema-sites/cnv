@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-11-16T21:14:19Z",
+    "stardustVersion": "0.32.1"
+  },
+  "site": {
+    "originUrl": "https://www.cnv.org/",
+    "deployUrl": "https://main--cnv--ema-sites.aem.page/",
+    "extractedAt": "2026-11-16T20:46:41.764Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": {
+    "resolvedAt": "2026-11-16T20:51:32.138Z",
+    "phrase": "uplift presales redesign — three variants per stardust/direction.md",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "reimagined",
+    "variantMode": "role-differentiated",
+    "variants": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.cnv.org/",
+      "title": "City of North Vancouver",
+      "type": "landing",
+      "status": "prototyped",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-16T20:46:41.764Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-16T20:51:32.138Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-16T21:14:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-A-proposed.html",
+      "migratedPath": null
+    }
+  ]
+}

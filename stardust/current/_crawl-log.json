@@ -1,0 +1,36 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 4
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.cnv.org/CNV/Images/favicons/favicon-32x32.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "Screenshot matches record: blue nav bar, grant-program banner (carousel slide 1), four photo cards, news list, quick links, navy footer. No consent wall. Logo present. Empty heading outline is real (no h1-h6 in DOM), not a capture failure."
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.cityconnect.cnv.org",
+      "confidence": "low",
+      "evidence": "footer CityConnect newsletter logo",
+      "decision": "excluded (newsletter, not a brand surface)"
+    }
+  ]
+}

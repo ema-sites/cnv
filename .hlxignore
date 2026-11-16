@@ -8,3 +8,8 @@ test/*
 sync-block-collection.sh
 catalog/
 tools/importer/
+stardust/
+docs/
+DESIGN*.json
+DESIGN*.md
+PRODUCT.md
