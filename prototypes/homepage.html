@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+{
+  "writtenBy": "stardust:prototype (render via impeccable craft → new-work, established world)",
+  "writtenAt": "2026-11-16T21:25:00Z",
+  "page": "index",
+  "variant": "A",
+  "againstDirection": "stardust/direction.md (Active 2026-11-16T21:02:00Z)",
+  "againstDesign": "DESIGN-A.md / DESIGN-A.json",
+  "shapeBrief": "stardust/prototypes/index-A-shape.md",
+  "fidelity": "quick",
+  "surprise": "low",
+  "capturedSourceLineage": ["header: systemComponents[kind=header]", "hero: #banners slide 3 (aerial)", "featured: #banners slide 1 (grant banner, as text)", "service-router: direction-authorized new (improvement 1)", "around-the-city: #phcontent_0_ctl01_rptFeatures", "news-events: City News & Events list", "links: Quick Links & Resources + Council Meetings", "footer: systemComponents[kind=footer]"],
+  "reflexRejectAudit": { "bypassed": "Mode A: Open Sans pinned from the captured surface" },
+  "unsourcedContent": [],
+  "signatureElements": [],
+  "finishReview": { "round": 1, "fixesApplied": ["mobile: services above grants call-out", "single homepage search", "hero 420px"] },
+  "copyCadenceBypass": { "rules": ["em-dash-overuse"], "basis": "grant call-out and footer copy are captured-verbatim" }
+}
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City of North Vancouver</title>
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH4AkWAAwi2yfV+AAABUtJREFUWMPt1luMnVUVB/Df/s45M9MbvUjVjGBbppC0IoKkJQ0QRIlhqkYURGOakIhEIg/eYgxOE6IwlVcjMTxopdEHLyFSikxppCnBVmjFIJZLA9VeIG1HcOjN6VzOt33YazrTJoI0JLywky+zz569115r7f//vxbvjnd4pDM+2T8wMZse32GM6et9S2aqtyGIVXgES8/k8NvhwHwswbQzOdw8Oet/GBJpRhg7ITuOWoXhcbqaSZJItZyTLJffEUxG/8BkUDnXYPXKyRvXbCwPX9eJVDX1D9CuUC/BTbgKc3FUsh3r1PkvpjVr2ddkF5FXY7nk5oi+A3dJXjWJq8NSWoN/nBJynWGmlFZjTiVnGvW1eBBfxX5siINfwAYprVLXcBk+q4CuhbPicrE2CzPxgQjmxpLdgUkHEpJL8XV0NqV0CX6ME/gctqGNBpbhTsyQTiFMQztv0Ex/kPXhdnxXzltJleTsCOJLsl/g0GmOXIcx3Ffhm+jG9/G4rB1Uasv5iYji56c5kDQSWY061sakVEvGcRC/xBLJJ6VTLj8Hn8Lj2F5hJf6Oxwpggsd9vQU8fb1DGI23e/MxqQMPYI9C0xlTdnwc5+K3GK5wNvbh2BsaTm9Vs/I+/AaXY0UsduJ67MZmig6MK2BqvbHB2v89+noFGX6tKOSqQjsfCod+j4NyceCv+AjOBz98aNLQmoHypeQUzcrxvXkWXoin6FVVFypvn8MBVveqcC/m4HuYq9HgBxsKaLJO2U1yvlaekoFkahUZVwTtrOL0xqlZqPErhVG3KejfIts5EUAz0nRhbJiPtZrNPTG/UXYD7pWqTf8jzF0R1XfQJeeW/oHX4iJ4SrIJX8EofiQZnTjcxLDsDskruBVrFY428Zrkbtk9AYLjGFJ0YmI8ip8paL8yLrkTW8ikNKpQ8vN4wQTbgi0lkXcNkNtJo9XdGD760ZzS/Lpz+iE8q2rsk3NtdIRW61xF7V7CqNnv5fAgqZpWnTh2Ua4a3bnVOajQ+oh88oar8BDuRr/sJN1Tz4KFkOpWp+bw0Wk5VbelXG/NVbWtOXxcu3N69Z953fXMw4Pmj4ykPx08kHsWLJJzLVVVA5/G86luT1Bt3Yv79xfjRXwSfqKo7DV4fmrP0JScL+utxkbG6mbHIVyTeRK3js2Y3YNZXUf+9dPxlC4/0NW1omfhogHJaErVMryMW/BcrhrH0IMrFi9YeB+2xh1LlfrxoJx3nd4DVbKbsRMH4g3/hufwiUD2YnxbkeRHlSLyRXwmHBjEUziC1zGXvHJ338Ozw0Z/4GltSPUpoxnAmo8u/DvAdiT+vyMoVEcqL8BIAO2PkvWyL+ODYetZjKX2eJehA1cqctvGHeGk01u2pqIDV+NooLk7Dq3D3vgO4X1YJrld1oGmLOMefDj2TTCkwkGN5jdIu3TN/LOca99a4fSRehYsvDiif1mRyrZSLLZFZuYpxWQTFuHioFInrsD2yOKceIJz0CI/XY2NLMbrdavzghClHbgk9u/AsWak75agziy8iF5FtWqlPXu/ItfLFeluKEXlJdwQZ+rA0sfKM6XL6lbX8sBId2T7ycDSE3hapOoxRcmuj8WrlWr1nsjMA3HwvMjaeryqdD4bw8bcyNpSpbFZryjfoFKMGngmsDUUwBwiacybO2ckjAzjd4osH8ErSj3fqej99sDJdbG2T+H2FtyPSyOQZ5Ru6LwA4eYp4N0cdz2CE7v37jkpRJWkkVVjKdcTPV598m+SAnCUHnAk5p2FEbkmdUjq2NcuONAOOx3BotGSjdRG3r33n94d7/j4L5LQypTiEoNEAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTA5LTIyVDAwOjEyOjM0KzAyOjAwkOXJsAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNi0wOS0yMlQwMDoxMjozNCswMjowMOG4cQwAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
+<meta name="description" content="Official website of the City of North Vancouver, British Columbia, Canada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+<style>
+:root {
+  --heading-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  --body-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  --heading-xxl: 52px;
+  --heading-xl: 41.5px;
+  --heading-lg: 33px;
+  --heading-md: 21px;
+  --body: 17px;
+  --body-sm: 15px;
+  --line-height-heading: 1.2;
+  --line-height-body: 1.6;
+  --color-bg: #ffffff;
+  --color-fg: #333333;
+  --color-accent: #00467f;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 64px;
+  --section-padding: 64px;
+  --max-width: 1200px;
+  --radius: 8px;
+
+  --cnv-blue: #438ece;
+  --cnv-navy: #00467f;
+  --ink: #1f3349;
+  --muted: #645f5f;
+  --rule: #d8d8d8;
+  --mist: #f4f4f4;
+  --harbour: #c7d6e3;
+  --radius-sm: 4px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --shadow-card: 0 1px 2px rgb(31 51 73 / 0.08), 0 6px 20px rgb(31 51 73 / 0.08);
+  --focus: 3px solid #438ece;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body);
+  line-height: var(--line-height-body);
+  color: var(--color-fg);
+  background: var(--color-bg);
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--cnv-navy); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { text-decoration-color: var(--cnv-blue); text-decoration-thickness: 2px; }
+:focus-visible { outline: var(--focus); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--heading-font-family); color: var(--ink); line-height: var(--line-height-heading); margin: 0; text-wrap: balance; }
+h2 { font-size: clamp(28px, 1.4rem + 1.4vw, var(--heading-lg)); font-weight: 600; }
+h3 { font-size: clamp(19px, 1.1rem + 0.4vw, var(--heading-md)); font-weight: 600; }
+p { margin: 0; text-wrap: pretty; }
+.wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.ds-nav-burger { display: none; }
+.featured-m { display: none; }
+
+/* skip link */
+.skip { position: absolute; left: 16px; top: -60px; background: var(--cnv-navy); color: #fff; padding: 12px 16px; border-radius: var(--radius-sm); z-index: 10; font-weight: 600; }
+.skip:focus { top: 12px; }
+
+/* header */
+.masthead { border-bottom: 1px solid var(--rule); }
+.masthead .wrap { display: flex; align-items: center; gap: var(--spacing-lg); min-height: 96px; }
+.logo img { height: 64px; width: auto; }
+.masthead-search { flex: 1; max-width: 420px; margin-left: auto; display: flex; }
+.masthead-search input { flex: 1; min-width: 0; height: 44px; border: 1px solid #8a8a8a; border-right: 0; border-radius: var(--radius-sm) 0 0 var(--radius-sm); padding: 0 14px; font: inherit; font-size: 16px; color: var(--ink); }
+.masthead-search button, .search-big button { border: 0; background: var(--cnv-navy); color: #fff; width: 48px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; display: grid; place-items: center; cursor: pointer; }
+.masthead-search button:hover, .search-big button:hover { background: var(--ink); }
+.utility { display: flex; gap: var(--spacing-lg); list-style: none; margin: 0 0 0 auto; padding: 0; font-size: var(--body-sm); font-weight: 600; }
+.utility a { text-decoration: none; }
+.utility a:hover { text-decoration: underline; }
+.navbar { background: var(--cnv-navy); }
+.navbar ul { list-style: none; margin: 0 auto; padding: 0 var(--gutter); max-width: var(--max-width); display: flex; justify-content: space-between; }
+.navbar a { display: block; color: #fff; text-decoration: none; font-size: 15px; font-weight: 600; padding: 18px 4px; border-bottom: 3px solid transparent; }
+.navbar a:hover, .navbar a:focus-visible { border-bottom-color: var(--cnv-blue); }
+.navbar a:focus-visible { outline-color: #fff; outline-offset: -3px; }
+
+/* hero */
+.hero { position: relative; min-height: 420px; display: grid; align-items: end; color: #fff; isolation: isolate; }
+.hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgb(31 51 73 / 0.92) 0%, rgb(31 51 73 / 0.78) 38%, rgb(31 51 73 / 0.1) 75%), linear-gradient(0deg, rgb(31 51 73 / 0.55), transparent 45%); }
+.hero .wrap { width: 100%; padding-block: 72px 48px; display: grid; grid-template-columns: minmax(0, 600px) 1fr; gap: var(--spacing-xl); align-items: end; }
+.hero h1 { color: #fff; font-size: clamp(36px, 1.4rem + 3.6vw, var(--heading-xxl)); font-weight: 700; letter-spacing: -0.01em; line-height: 1.08; }
+.hero .lede { font-size: 21px; line-height: 1.5; margin-top: var(--spacing-md); max-width: 34ch; }
+.featured { justify-self: end; background: #fff; color: var(--color-fg); border-radius: var(--radius); padding: var(--spacing-lg); max-width: 360px; box-shadow: var(--shadow-card); }
+.featured h2 { font-size: 21px; }
+.featured p { margin-top: var(--spacing-sm); font-size: var(--body-sm); color: var(--muted); }
+.btn { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 20px; background: var(--cnv-navy); color: #fff; font-weight: 600; font-size: 15px; text-decoration: none; border-radius: var(--radius-sm); }
+.btn:hover { background: var(--ink); color: #fff; text-decoration: none; }
+.featured .btn { margin-top: var(--spacing-md); }
+
+/* sections */
+.section { padding-block: var(--section-padding); }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--spacing-md); margin-bottom: var(--spacing-lg); flex-wrap: wrap; }
+.section-head a { font-weight: 600; font-size: var(--body-sm); }
+
+/* service router */
+.services { padding-bottom: 32px; }
+.services-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--spacing-xl); align-items: start; }
+.services h2 { font-size: clamp(28px, 1.4rem + 1.4vw, var(--heading-lg)); }
+.services .intro { margin-top: var(--spacing-sm); color: var(--muted); }
+.search-big { display: flex; margin-top: var(--spacing-lg); }
+.search-big label { display: block; }
+.search-big input { flex: 1; min-width: 0; height: 56px; border: 2px solid var(--cnv-navy); border-right: 0; border-radius: var(--radius-sm) 0 0 var(--radius-sm); padding: 0 16px; font: inherit; color: var(--ink); }
+.search-big input::placeholder { color: var(--muted); }
+.search-big button { width: 64px; }
+.all-services { display: inline-block; margin-top: var(--spacing-md); font-weight: 600; }
+.tiles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.tiles a { display: flex; flex-direction: column; gap: 10px; height: 100%; min-height: 112px; padding: 16px; border: 1px solid var(--rule); border-radius: var(--radius); text-decoration: none; color: var(--ink); font-weight: 600; line-height: 1.35; transition: border-color .15s ease-out, box-shadow .15s ease-out; }
+.tiles a:hover { border-color: var(--cnv-blue); box-shadow: var(--shadow-card); }
+.tiles svg { width: 32px; height: 32px; stroke: var(--cnv-blue); flex: none; }
+.tiles small { display: block; font-weight: 400; color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+/* cards */
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-lg); }
+.card { position: relative; }
+.card img { aspect-ratio: 3 / 2; width: 100%; object-fit: cover; border-radius: var(--radius); }
+.card h3 { margin-top: var(--spacing-md); }
+.card h3 a { text-decoration: none; color: var(--ink); }
+.card h3 a::after { content: ""; position: absolute; inset: 0; }
+.card:hover h3 a { text-decoration: underline; text-decoration-color: var(--cnv-blue); }
+.card:hover img { filter: brightness(1.05); }
+.card p { margin-top: 6px; font-size: var(--body-sm); color: var(--muted); }
+.card:has(a:focus-visible) { outline: var(--focus); outline-offset: 6px; border-radius: var(--radius); }
+.card a:focus-visible { outline: none; }
+
+/* news */
+.news-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--spacing-xl); }
+.news { list-style: none; margin: 0; padding: 0; }
+.news li { padding-block: 20px; border-top: 1px solid var(--rule); }
+.news li:last-child { border-bottom: 1px solid var(--rule); }
+.news time { font-size: 14px; color: var(--muted); font-weight: 600; }
+.news h3 { margin-top: 4px; }
+.news h3 a { text-decoration: none; }
+.news h3 a:hover { text-decoration: underline; text-decoration-color: var(--cnv-blue); }
+.news p { margin-top: 6px; color: var(--color-fg); }
+.events { background: var(--mist); border-radius: var(--radius); padding: var(--spacing-lg); align-self: start; }
+.events img { aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius-sm); margin-bottom: var(--spacing-md); }
+.events p { margin-top: var(--spacing-sm); }
+.events .btn { margin-top: var(--spacing-md); }
+.events .secondary { display: block; margin-top: 12px; font-weight: 600; font-size: var(--body-sm); }
+
+/* links band */
+.links { background: var(--mist); }
+.links-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--spacing-xl); }
+.linklist { list-style: none; margin: var(--spacing-md) 0 0; padding: 0; display: grid; gap: 0 var(--spacing-xl); }
+.linklist.two { grid-template-columns: 1fr 1fr; }
+.linklist a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--rule); text-decoration: none; font-weight: 600; min-height: 48px; }
+.linklist a::after { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--cnv-blue); border-top: 2px solid var(--cnv-blue); transform: rotate(45deg); flex: none; }
+.linklist a:hover { text-decoration: underline; text-decoration-color: var(--cnv-blue); }
+
+/* footer */
+.site-footer { background: var(--cnv-navy); color: #fff; }
+.site-footer a { color: #fff; }
+.footer-main { display: grid; grid-template-columns: auto 1fr 1fr 1.2fr; gap: var(--spacing-xl); padding-block: 56px; align-items: start; }
+.footer-logo { background: #fff; border-radius: var(--radius); padding: 10px 12px; display: inline-block; }
+.footer-logo img { height: 56px; width: auto; }
+.site-footer h2 { color: #fff; font-size: 17px; font-weight: 700; margin-bottom: var(--spacing-sm); }
+.site-footer address { font-style: normal; line-height: 1.7; }
+.site-footer .harbour { color: var(--harbour); }
+.cityconnect p { margin-bottom: var(--spacing-md); color: var(--harbour); }
+.site-footer .btn-light { background: #fff; color: var(--cnv-navy); }
+.site-footer .btn-light:hover { background: var(--harbour); color: var(--ink); }
+.social { list-style: none; margin: var(--spacing-lg) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: var(--body-sm); }
+.social a { text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.social a:hover { text-decoration: underline; }
+.legal { background: var(--rule); color: #222; font-size: var(--body-sm); }
+.legal .wrap { display: flex; justify-content: space-between; gap: var(--spacing-md); flex-wrap: wrap; padding-block: 16px; }
+.legal ul { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--spacing-lg); flex-wrap: wrap; }
+.legal a { color: #222; }
+
+/* tablet */
+@media (max-width: 1024px) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .services-grid { grid-template-columns: 1fr; gap: var(--spacing-lg); }
+  .footer-main { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 899px) {
+  :root { --section-padding: 48px; }
+  .masthead .wrap { min-height: 72px; flex-wrap: wrap; }
+  .logo img { height: 52px; }
+  .utility, .masthead-search { display: none; }
+  .ds-nav-burger { display: inline-flex; margin-left: auto; align-items: center; gap: 8px; min-height: 44px; padding: 8px 14px; border: 2px solid var(--cnv-navy); background: #fff; color: var(--cnv-navy); font: 600 15px var(--body-font-family); border-radius: var(--radius-sm); cursor: pointer; }
+  .navbar { display: none; }
+  .navbar.is-open { display: block; }
+  .navbar ul { flex-direction: column; padding: 0; }
+  .navbar a { padding: 14px var(--gutter); border-bottom: 1px solid rgb(255 255 255 / 0.15); }
+  .navbar .utility-m { display: block; }
+  .hero .wrap { grid-template-columns: 1fr; }
+  .featured { justify-self: start; }
+  .news-grid, .links-grid { grid-template-columns: 1fr; }
+}
+.navbar .utility-m { display: none; }
+.navbar .utility-m a { font-weight: 400; background: rgb(0 0 0 / 0.15); }
+/* phone */
+@media (max-width: 599px) {
+  :root { --section-padding: 40px; }
+  .hero { min-height: 0; }
+  .hero::before { background: linear-gradient(0deg, rgb(31 51 73 / 0.95) 0%, rgb(31 51 73 / 0.82) 55%, rgb(31 51 73 / 0.35) 100%); }
+  .hero .wrap { padding-block: 120px 32px; }
+  .hero .lede { font-size: 18px; }
+  .hero .featured { display: none; }
+  .featured-m { display: block; background: var(--mist); padding-block: 24px; }
+  .featured-m h2 { font-size: 21px; }
+  .featured-m p { margin-top: 4px; color: var(--muted); font-size: var(--body-sm); }
+  .featured-m .btn { margin-top: 12px; }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .tiles a { min-height: 0; }
+  .cards { grid-template-columns: 1fr; gap: 0; }
+  .card { display: grid; grid-template-columns: 112px 1fr; gap: 4px 16px; padding-block: 16px; border-top: 1px solid var(--rule); }
+  .card img { grid-row: span 2; aspect-ratio: 1; }
+  .card h3 { margin-top: 0; }
+  .card p { margin-top: 0; }
+  .linklist.two { grid-template-columns: 1fr; }
+  .footer-main { grid-template-columns: 1fr; gap: var(--spacing-lg); }
+}
+@media (max-width: 359px) {
+  .tiles { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<!--
+THESIS: The City's front door opens on what residents came to do; refuses the promo-carousel-first municipal homepage.
+OWN-WORLD: CNV navy bar and footer, white page, CNV blue as rule/icon/focus accent, Open Sans on a 1.25 scale, the City's own photographs at 3:2, square-cornered calm with 8px softening.
+STORY: Visitor sees the city (aerial), finds their task in one look (six named services + search), then what's happening (places, dated news, events), then links and Council.
+FIRST VIEWPORT: Header with search; 480px aerial photo hero with h1 left on an ink scrim and the grants call-out card right; the service router begins at the fold.
+FORM: Faithful captured IA (Variant A, brief-pinned; no concept roll — established world, precisely specified brief). Seed key: n/a (brief-pinned).
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<a class="skip" href="#main">Skip to main content</a>
+
+<header data-section="header" data-intent="navigate" data-layout="full-width" data-nav-collapse="hamburger">
+  <div class="masthead">
+    <div class="wrap">
+      <a class="logo" href="/"><img src="logo.png" alt="City of North Vancouver home" width="115" height="85"></a>
+      <ul class="utility">
+        <li><a href="/city-hall/online-services">Online services</a></li>
+        <li><a href="/city-hall/careers">Careers</a></li>
+        <li><a href="/city-hall/contact">Contact us</a></li>
+      </ul>
+      <button class="ds-nav-burger" type="button" aria-expanded="false" aria-controls="site-nav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Menu</button>
+    </div>
+  </div>
+  <nav class="navbar" id="site-nav" aria-label="Main">
+    <ul>
+      <li><a href="/home-property">Home &amp; Property</a></li>
+      <li><a href="/parks-recreation">Parks, Recreation &amp; Culture</a></li>
+      <li><a href="/business-development">Business &amp; Development</a></li>
+      <li><a href="/community-environment">Community &amp; Environment</a></li>
+      <li><a href="/streets-transportation">Streets &amp; Transportation</a></li>
+      <li><a href="/city-hall">Government &amp; City Hall</a></li>
+      <li class="utility-m"><a href="/search">Search</a></li>
+      <li class="utility-m"><a href="/city-hall/online-services">Online services</a></li>
+      <li class="utility-m"><a href="/city-hall/contact">Contact us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" data-section="hero" data-intent="orient" data-layout="full-bleed" aria-labelledby="h1">
+    <img src="media/2023-Aerial-Drone-Shots-of-City-_3__website_homepage_banner_1800x460.jpg" alt="" width="1800" height="460" fetchpriority="high" loading="eager">
+    <div class="wrap">
+      <div>
+        <h1 id="h1">City of North Vancouver</h1>
+        <p class="lede">Services, news and Council business for the people of North Vancouver.</p>
+      </div>
+      <aside class="featured" aria-labelledby="featured-h">
+        <h2 id="featured-h">Culture Makes the City programming grants</h2>
+        <p>Application deadline Dec 13, 2026</p>
+        <a class="btn" href="/community-environment/grants-funding/culture-makes-the-city-grants">Apply now</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section services" data-section="service-router" data-intent="primary-action" data-layout="grid" data-items="6" aria-labelledby="services-h">
+    <div class="wrap services-grid">
+      <div>
+        <h2 id="services-h">What do you need today?</h2>
+        <p class="intro">Pay, apply, book and report online, any time.</p>
+        <form class="search-big" role="search" action="/search">
+          <label class="visually-hidden" for="q-main">Search the City website</label>
+          <input id="q-main" name="q" type="search" placeholder="Services, bylaws, topics">
+          <button type="submit" aria-label="Search"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+        </form>
+        <a class="all-services" href="/city-hall/online-services">All online services</a>
+      </div>
+      <ul class="tiles">
+        <li><a href="/home-property/property-taxes"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg>Pay property taxes</a></li>
+        <li><a href="/home-property/utility-rates"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg>Pay a utility bill</a></li>
+        <li><a href="/city-hall/online-services/cityfix"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><path d="M12 7v4M12 14h.01"/></svg><span>Report an issue<small>CityFix</small></span></a></li>
+        <li><a href="/city-hall/online-services/citycollect"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg><span>Garbage &amp; recycling schedule<small>CityCollect</small></span></a></li>
+        <li><a href="/city-hall/online-services/cityserve"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><span>Permits, licences &amp; tickets<small>CityServe</small></span></a></li>
+        <li><a href="https://icity.cnv.org/"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg><span>Property search<small>iCity</small></span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <aside class="featured-m" aria-labelledby="featured-m-h">
+    <div class="wrap">
+      <h2 id="featured-m-h">Culture Makes the City programming grants</h2>
+      <p>Application deadline Dec 13, 2026</p>
+      <a class="btn" href="/community-environment/grants-funding/culture-makes-the-city-grants">Apply now</a>
+    </div>
+  </aside>
+
+  <section class="section" data-section="around-the-city" data-intent="discovery" data-layout="grid" data-items="4" aria-labelledby="atc-h">
+    <div class="wrap">
+      <div class="section-head"><h2 id="atc-h">Around the City</h2></div>
+      <ul class="cards">
+        <li class="card"><img src="media/2020-09-09-Pro-MDW-Shipyards-Scenic-Shot_website_Feature_image_344x198-_1_.jpg" alt="The Shipyards plaza on the waterfront" width="344" height="198" loading="lazy"><h3><a href="/parks-recreation/the-shipyards">The Shipyards</a></h3><p>Find out what's happening at The Shipyards!</p></li>
+        <li class="card"><img src="media/2026-05-23-Public-Works-Open-House-Operations-Centre-Trucks-_74__website_Feature_image_344x198.jpg" alt="Families exploring City trucks at the Public Works open house" width="344" height="198" loading="lazy"><h3><a href="/parks-recreation/events">Community Events Calendar</a></h3><p>Check out local community events. Don't see your event? Submit it.</p></li>
+        <li class="card"><img src="media/2025-07-Curbside-Collection-_15__website_Feature_image_344x198.jpg" alt="Curbside collection truck picking up green cans" width="344" height="198" loading="lazy"><h3><a href="/home-property/garbage-recycling-green-can">Garbage &amp; Recycling</a></h3><p>Get the details on everything waste-related.</p></li>
+        <li class="card"><img src="media/2014-09-Construction-Pro-CBR-Lonsdale-Avenue-Construction-workers-croppedwebsiteFeatureimage344.jpg" alt="Construction crew working on Lonsdale Avenue" width="344" height="198" loading="lazy"><h3><a href="/streets-transportation/streets-sidewalks/roadwork">Roadwork &amp; Construction</a></h3><p>Get info about current roadwork and construction happening in the City.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" data-section="news-events" data-intent="inform" data-layout="split-2-1" data-items="5" aria-labelledby="news-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head"><h2 id="news-h">City News &amp; Events</h2><a href="/city-hall/news-room">All news</a></div>
+      <div class="news-grid">
+        <ul class="news">
+          <li><time datetime="2026-11-05">November 5, 2026</time><h3><a href="/city-hall/news-room/whats-new/2026/11/5/get-ready-for-winter-at-the-shipyards">Get Ready for Winter at The Shipyards</a></h3><p>Check out all of the wonderful, festive activities happening at The Shipyards!</p></li>
+          <li><time datetime="2026-11-03">November 3, 2026</time><h3><a href="/city-hall/news-room/whats-new/2026/11/3/remembrance-day-in-the-city">Remembrance Day in the City</a></h3><p>Join the community on Wednesday, November 11 at Victoria Park for the Remembrance Day service and parade.</p></li>
+          <li><time datetime="2026-10-26">October 26, 2026</time><h3><a href="/city-hall/news-room/whats-new/2026/10/26/volunteer-for-a-committee-and-help-shape-your-community">Volunteer for a Committee and Help Shape Your Community</a></h3><p>The City is accepting applications until 5:00 pm on Friday, November 13, 2026.</p></li>
+          <li><time datetime="2026-10-21">October 21, 2026</time><h3><a href="/city-hall/news-room/news-releases/2026/10/21/official-results-announced-for-the-2026-general-local-election--for-the-city-of-north-vancouver">Official results announced for the 2026 General Local Election for the City of North Vancouver</a></h3><p>On Saturday, October 17, 2026, electors voted for one mayor, six councillors, and three school trustees.</p></li>
+        </ul>
+        <aside class="events" aria-labelledby="events-h">
+          <img src="media/2026-SOTS-Homepage-banner.jpg" alt="Crowds gather around the lit tree at The Shipyards" width="1800" height="460" loading="lazy">
+          <h3 id="events-h">Community events</h3>
+          <p>Check out local community events. Don't see your event? Submit it.</p>
+          <a class="btn" href="/parks-recreation/events">Events calendar</a>
+          <a class="secondary" href="/parks-recreation/events">Submit an event</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section links" data-section="links" data-intent="cross-link" data-layout="two-column" data-items="12">
+    <div class="wrap links-grid">
+      <div>
+        <h2 id="ql-h">Quick Links &amp; Resources</h2>
+        <ul class="linklist two" aria-labelledby="ql-h">
+          <li><a href="/business-development/business-licences">Apply for Business Licence</a></li>
+          <li><a href="/business-development/permits-inspections">Permits &amp; Inspections</a></li>
+          <li><a href="/home-property/garbage-recycling-green-can">Garbage &amp; Recycling</a></li>
+          <li><a href="/parks-recreation/parks-greenways/parks">Parks in the City</a></li>
+          <li><a href="/parks-recreation/events">Community Events</a></li>
+          <li><a href="/city-hall/news-room">News Room</a></li>
+          <li><a href="/city-hall/careers">Careers at the City</a></li>
+          <li><a href="/city-hall/online-services/cityfix">Get the CityFix App</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="cm-h">Council Meetings</h2>
+        <ul class="linklist" aria-labelledby="cm-h">
+          <li><a href="/city-hall/council-meetings">Council Meetings</a></li>
+          <li><a href="/city-hall/council-meetings">Council Schedule</a></li>
+          <li><a href="/city-hall/council-meetings/council-meeting-live-streaming">Meeting Live Streaming</a></li>
+          <li><a href="/city-hall/mayor-council">Contact Mayor &amp; Council</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" data-section="footer" data-intent="contact" data-layout="full-width">
+  <div class="wrap footer-main">
+    <a class="footer-logo" href="/"><img src="logo.png" alt="City of North Vancouver home" width="115" height="85" loading="lazy"></a>
+    <div>
+      <h2>City Hall</h2>
+      <address>141 West 14th Street<br>North Vancouver, BC V7M 1H9<br>Reception: <a href="tel:+16049857761">604-985-7761</a></address>
+    </div>
+    <div>
+      <h2>Hours</h2>
+      <p>Monday to Friday<br>8:30am to 5:00pm</p>
+      <p style="margin-top:12px"><a href="/google-translate-disclaimer">Translate this page</a></p>
+    </div>
+    <div class="cityconnect">
+      <h2>Sign up for CityConnect</h2>
+      <p>News and updates from the City, by email.</p>
+      <a class="btn btn-light" href="/city-hall/news-room/cityconnect-subscription">Sign up</a>
+      <ul class="social" aria-label="City of North Vancouver on social media">
+        <li><a href="https://www.facebook.com/CityOfNorthVancouver">Facebook</a></li>
+        <li><a href="https://twitter.com/CityOfNorthVan">X</a></li>
+        <li><a href="https://www.instagram.com/CityOfNorthVancouver/">Instagram</a></li>
+        <li><a href="https://www.youtube.com/user/CityOfNorthVancouver">YouTube</a></li>
+        <li><a href="https://www.linkedin.com/company/city-of-north-vancouver">LinkedIn</a></li>
+        <li><a href="/rss">RSS</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="legal">
+    <div class="wrap">
+      <ul>
+        <li><a href="/sitemap">Site Map</a></li>
+        <li><a href="/city-hall/contact">Contact Us</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+      </ul>
+      <p>© 2026 City of North Vancouver. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script>
+{const b=document.querySelector('.ds-nav-burger'),n=document.getElementById('site-nav');
+b.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));n.classList.toggle('is-open',!o);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&n.classList.contains('is-open')){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');b.focus();}});}
+</script>
+</body>
+</html>
