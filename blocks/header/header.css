@@ -421,8 +421,9 @@ header .nav-chevron::after {
     height: 40px;
   }
 
-  /* a page with its own big search field (the homepage) doesn't repeat it in the header */
-  body:has(main .services-search) header .nav-search {
+  /* a page with its own big search field (the homepage, the search page) doesn't repeat it in the header */
+  body:has(main .services-search) header .nav-search,
+  body:has(main .search-form) header .nav-search {
     display: none;
   }
 
