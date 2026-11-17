@@ -107,7 +107,10 @@ p { margin: 0; text-wrap: pretty; }
 .utility a:hover { text-decoration: underline; }
 .navbar { background: var(--cnv-navy); }
 .navbar ul { list-style: none; margin: 0 auto; padding: 0 var(--gutter); max-width: var(--max-width); display: flex; justify-content: space-between; }
-.navbar a { display: block; color: #fff; text-decoration: none; font-size: 15px; font-weight: 600; padding: 18px 4px; border-bottom: 3px solid transparent; }
+/* each label in its own centred cell with a thin divider, so the six sections never read as one line of words */
+.navbar li { flex: 1 1 auto; display: flex; }
+.navbar li + li { border-left: 1px solid rgb(255 255 255 / 0.22); }
+.navbar a { display: flex; align-items: center; justify-content: center; width: 100%; color: #fff; text-align: center; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.25; padding: 14px 12px 11px; min-height: 64px; box-sizing: border-box; border-bottom: 3px solid transparent; }
 .navbar a:hover, .navbar a:focus-visible { border-bottom-color: var(--cnv-blue); }
 .navbar a:focus-visible { outline-color: #fff; outline-offset: -3px; }
 
@@ -289,7 +292,8 @@ p { margin: 0; text-wrap: pretty; }
   .navbar { display: none; }
   .navbar.is-open { display: block; }
   .navbar ul { flex-direction: column; padding: 0; }
-  .navbar a { padding: 14px var(--gutter); border-bottom: 1px solid rgb(255 255 255 / 0.15); }
+  .navbar li + li { border-left: 0; }
+  .navbar a { justify-content: flex-start; min-height: 48px; text-align: left; padding: 14px var(--gutter); border-bottom: 1px solid rgb(255 255 255 / 0.15); }
   .navbar .utility-m { display: block; }
   .hero .wrap { grid-template-columns: 1fr; }
   .featured { justify-self: start; }
@@ -394,7 +398,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <section class="featured-band" data-section="featured" data-intent="campaign" data-layout="band" aria-labelledby="featured-h">
     <div class="wrap">
       <h2 id="featured-h">Culture Makes the City programming grants <span>Application deadline Dec 13, 2026</span></h2>
-      <a class="btn" href="/community-environment/grants-funding">Apply now</a>
+      <a class="btn" href="/community-environment/grants-funding/culture-makes-the-city-grants">Apply now</a>
     </div>
   </section>
 
