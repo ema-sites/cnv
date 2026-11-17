@@ -42,7 +42,7 @@ main > .section.hero-container > .hero-wrapper {
 .hero .hero-inner {
   box-sizing: border-box;
   width: 100%;
-  max-width: var(--brand-content-max-width);
+  max-width: calc(var(--brand-content-max-width) + 30px);
   margin: 0 auto;
   padding: 120px 15px 32px;
 }
@@ -116,7 +116,7 @@ main > .section.hero-container > .hero-wrapper {
 
 @media (width >= 600px) {
   .hero .hero-inner {
-    padding: 72px 32px 48px;
+    padding: 72px 15px 48px;
   }
 
   .hero .hero-content p {
@@ -141,6 +141,8 @@ main > .section.hero-container > .hero-wrapper {
   }
 
   .hero .hero-inner {
+    max-width: calc(var(--brand-content-max-width) + 64px);
+    padding-inline: 32px;
     display: grid;
     grid-template-columns: minmax(0, 600px) 1fr;
     gap: 48px;
@@ -155,6 +157,7 @@ main > .section.hero-container > .hero-wrapper {
 
 @media (width >= 1200px) {
   .hero .hero-inner {
+    max-width: var(--brand-content-max-width);
     padding-inline: 0;
   }
 }
