@@ -1,0 +1,115 @@
+/* services: labelled tiles (icon, label, system name); the optional search field is placed with
+   the section heading, so its rules are scoped to the services section */
+.services-container .services-search {
+  display: flex;
+  margin: 20px 0 16px;
+}
+
+.services-container .services-search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.services-container .services-search input {
+  flex: 1;
+  min-width: 0;
+  height: 56px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 16px;
+  border: 2px solid var(--brand-navy);
+  border-right: 0;
+  border-radius: var(--brand-radius-sm) 0 0 var(--brand-radius-sm);
+  color: var(--brand-ink);
+  font-size: 17px;
+}
+
+.services-container .services-search input::placeholder {
+  color: var(--brand-muted);
+}
+
+.services-container .services-search button {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  margin: 0;
+  border: 0;
+  border-radius: 0 var(--brand-radius-sm) var(--brand-radius-sm) 0;
+  background: var(--brand-navy);
+  color: #fff;
+  cursor: pointer;
+}
+
+.services-container .services-search button:hover {
+  background: var(--brand-ink);
+}
+
+.services .services-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services .services-tiles li {
+  margin: 0;
+}
+
+.services .services-tiles a:any-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 96px;
+  padding: 16px;
+  border: 1px solid var(--brand-grey);
+  border-radius: var(--brand-radius);
+  color: var(--brand-ink);
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: border-color 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.services .services-tiles a:hover {
+  border-color: var(--brand-blue);
+  box-shadow: var(--brand-shadow-card);
+  text-decoration: none;
+}
+
+.services .services-tiles .icon {
+  width: 32px;
+  height: 32px;
+  flex: none;
+}
+
+.services .services-label small {
+  display: block;
+  margin-top: 2px;
+  color: var(--brand-muted);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (width < 360px) {
+  .services .services-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width >= 900px) {
+  .services .services-tiles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .services .services-tiles a:any-link {
+    min-height: 112px;
+  }
+}

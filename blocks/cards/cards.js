@@ -12,6 +12,10 @@ export default function decorate(block) {
       if (media) div.className = 'cards-card-image';
       else div.className = 'cards-card-body';
     });
+    // when every link in a card goes to the same page and the title carries it, the whole card is
+    // the link (the stretched title link keeps one tab stop and one accessible name per card)
+    const hrefs = new Set([...li.querySelectorAll('a[href]')].map((a) => a.getAttribute('href')));
+    if (hrefs.size === 1 && li.querySelector(':is(h2, h3, h4) a[href]')) li.classList.add('cards-card-linked');
     ul.append(li);
   });
   ul.querySelectorAll('picture > img').forEach((img) => {

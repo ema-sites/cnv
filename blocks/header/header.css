@@ -20,6 +20,14 @@ header nav a:any-link {
   text-decoration: none;
 }
 
+/* visual refresh: one focus ring for every control in the header */
+header nav a:focus-visible,
+header nav button:focus-visible,
+header nav input:focus-visible {
+  outline: var(--brand-focus-ring);
+  outline-offset: 2px;
+}
+
 header nav ul {
   list-style: none;
   margin: 0;
@@ -77,8 +85,9 @@ header .nav-utility li + li::before {
 }
 
 header .nav-utility a:any-link {
-  color: #333;
-  font-size: 14px;
+  color: var(--brand-navy);
+  font-size: 15px;
+  font-weight: 600;
   line-height: 21px;
 }
 
@@ -92,8 +101,8 @@ header .nav-search {
   display: none;
   width: 100%;
   margin-top: 20px;
-  border: 1px solid #c2c2c2;
-  border-radius: 3px;
+  border: 1px solid #8a8a8a;
+  border-radius: var(--brand-radius-sm);
 }
 
 header nav[aria-expanded='true'] .nav-search {
@@ -109,27 +118,27 @@ header .nav-search input {
   padding: 11px 6px 8px 18px;
   border: 0;
   border-radius: 3px;
-  font: 400 18px/20px 'Open Sans', sans-serif;
-  color: #999;
+  font: 400 17px/20px 'Open Sans', sans-serif;
+  color: var(--brand-ink);
 }
 
 header .nav-search input::placeholder {
-  color: #999;
+  color: var(--brand-muted);
 }
 
 header .nav-search button {
-  display: inline-block;
   position: relative;
   text-align: center;
   font-family: NovecentowideLightBold, Helvetica, Arial, sans-serif;
-  width: 33px;
-  height: 36px;
+  display: grid;
+  place-items: center;
+  width: 48px;
   box-sizing: border-box;
   margin: 0;
-  padding: 9px 9px 4px;
+  padding: 0;
   border: 0;
-  border-radius: 0;
-  background-color: transparent;
+  border-radius: 0 var(--brand-radius-sm) var(--brand-radius-sm) 0;
+  background-color: var(--brand-navy);
   color: #fff;
   font-size: 13px;
   line-height: 12px;
@@ -138,12 +147,13 @@ header .nav-search button {
 }
 
 header .nav-search button:hover {
-  color: #438ece;
+  background-color: var(--brand-ink);
 }
 
-header .nav-search button img {
-  width: 15px;
-  height: 23px;
+/* the search icon: a white line icon on the navy button */
+header .nav-search button svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* menu button (phones): light grey square at the right of the logo row; it does not morph */
@@ -157,13 +167,13 @@ header .nav-hamburger button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   margin: 0;
   padding: 0;
-  border: 0;
-  border-radius: 3px;
-  background-color: #f2f2f2;
+  border: 2px solid var(--brand-navy);
+  border-radius: var(--brand-radius-sm);
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -174,7 +184,7 @@ header .nav-hamburger-icon::after {
   display: block;
   width: 20px;
   height: 2px;
-  background-color: #333;
+  background-color: var(--brand-navy);
 }
 
 header .nav-hamburger-icon::before,
@@ -214,15 +224,15 @@ header .nav-sections > ul > li > a:any-link {
   min-height: 52px;
   box-sizing: border-box;
   padding: 0 56px 0 18px;
-  background-color: #438ece;
+  background-color: var(--brand-navy);
   color: #fff;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 18px;
 }
 
 header .nav-sections > ul > li[aria-expanded='true'] > a:any-link {
-  background-color: #00467f;
+  background-color: var(--brand-ink);
 }
 
 header .nav-sections > ul > li > a .nav-chevron {
@@ -371,7 +381,7 @@ header .nav-chevron::after {
 
   header .nav-utility {
     display: flex;
-    gap: 14px;
+    gap: 24px;
   }
 
   header .nav-utility li + li::before {
@@ -379,13 +389,12 @@ header .nav-chevron::after {
   }
 
   header .nav-utility a:any-link {
-    color: #438ece;
-    text-transform: uppercase;
+    color: var(--brand-navy);
   }
 
   /* the source's search button sits inside the right end of the 230px box */
   header .nav-search {
-    width: 230px;
+    width: 274px;
   }
 
   header .nav-search,
@@ -397,19 +406,24 @@ header .nav-chevron::after {
   }
 
   header .nav-search input {
-    flex: none;
-    width: 230px;
-    height: 37px;
-    padding: 11px 40px 8px 10px;
-    border: 1px solid #c2c2c2;
-    border-radius: 0;
-    font: 400 14px/14px Arial, sans-serif;
+    flex: 1;
+    width: auto;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #8a8a8a;
+    border-right: 0;
+    border-radius: var(--brand-radius-sm) 0 0 var(--brand-radius-sm);
+    font: 400 16px/1.2 'Open Sans', sans-serif;
   }
 
   header .nav-search button {
-    margin-left: -34px;
-    margin-top: 0.5px;
-    background-color: #bebebe;
+    width: 44px;
+    height: 40px;
+  }
+
+  /* a page with its own big search field (the homepage) doesn't repeat it in the header */
+  body:has(main .services-search) header .nav-search {
+    display: none;
   }
 
   /* the bar spans the page; its items line up with the 1140px content */
@@ -419,7 +433,7 @@ header .nav-chevron::after {
     position: relative;
     margin: 0 calc(50% - 50vw);
     padding: 0 calc(50vw - 50%);
-    background-color: #438ece;
+    background-color: var(--brand-navy);
   }
 
   header .nav-sections {
@@ -431,10 +445,17 @@ header .nav-chevron::after {
     justify-content: space-between;
   }
 
+  /* each section label is centred in its own cell with a thin divider, so the two-line labels
+     between 900 and 1199px read as six items, not one run of words */
   header .nav-sections > ul > li {
     position: static;
+    flex: 1 1 auto;
     border-bottom: 0;
     margin-bottom: 0;
+  }
+
+  header .nav-sections > ul > li + li {
+    border-left: 1px solid rgb(255 255 255 / 22%);
   }
 
   /* below 1200px the six labels wrap onto two lines so the bar never overflows */
@@ -443,11 +464,14 @@ header .nav-chevron::after {
     height: 64px;
     min-height: 0;
     box-sizing: border-box;
-    padding: 0 5px;
+    justify-content: center;
+    padding: 3px 10px 0;
+    border-bottom: 3px solid transparent;
+    text-align: center;
     background-color: transparent;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 17px;
     transition: background-color 0.2s ease;
   }
 
@@ -461,7 +485,13 @@ header .nav-chevron::after {
 
   header .nav-sections > ul > li:hover > a,
   header .nav-sections > ul > li[aria-expanded='true'] > a {
-    background-color: #00467f;
+    border-bottom-color: var(--brand-blue);
+    background-color: var(--brand-ink);
+  }
+
+  header .nav-sections > ul > li > a:focus-visible {
+    outline-color: #fff;
+    outline-offset: -4px;
   }
 
   header .nav-toggle-sub,
@@ -489,7 +519,7 @@ header .nav-chevron::after {
     width: 253px;
     padding: 0;
     animation: none;
-    background-color: #00467f;
+    background-color: var(--brand-ink);
   }
 
   header .nav-sections > ul > li[aria-expanded='true'] > .nav-panel {
@@ -547,10 +577,10 @@ header .nav-chevron::after {
 
   header .nav-panel-links > li > a:any-link {
     display: block;
-    color: #333;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 22.4px;
+    color: var(--brand-ink);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.3;
   }
 
   header .nav-panel-links > li > a:hover,
@@ -566,10 +596,10 @@ header .nav-chevron::after {
 
   header .nav-panel-links ul a:any-link {
     display: block;
-    padding: 2px 0;
-    color: #333;
-    font-size: 14px;
-    line-height: 20px;
+    padding: 3px 0;
+    color: var(--brand-text);
+    font-size: 15px;
+    line-height: 21px;
   }
 }
 
@@ -585,9 +615,9 @@ header .nav-chevron::after {
   }
 
   header .nav-sections > ul > li > a:any-link {
-    gap: 8px;
-    padding: 0 5px;
-    font-size: 13px;
+    gap: 6px;
+    padding: 3px 4px 0;
+    font-size: 14px;
     white-space: nowrap;
   }
 }

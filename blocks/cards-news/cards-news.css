@@ -1,41 +1,47 @@
+/* homepage City News & Events: dated headlines with a one-line summary, newest first */
 .cards-news .cards-news-items {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+}
+
+.cards-news .cards-news-item {
+  margin: 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--brand-grey);
+}
+
+.cards-news .cards-news-item:last-child {
+  border-bottom: 1px solid var(--brand-grey);
 }
 
 .cards-news .cards-news-item-body > * {
   margin: 0;
 }
 
-.cards-news .cards-news-item-title + * {
+.cards-news .cards-news-item-date {
+  display: block;
+  color: var(--brand-muted);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.cards-news .cards-news-item-title {
   margin-top: 4px;
+  font-size: var(--heading-font-size-l);
+  line-height: 1.3;
 }
 
-.cards-news .cards-news-item-cta {
-  display: flex;
-  justify-content: flex-end;
+.cards-news .cards-news-item-title a:any-link {
+  color: var(--brand-navy);
 }
 
-/* "Read more": small bold uppercase with a chevron, as on the source */
-.cards-news .cards-news-item-cta a:any-link {
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 12px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+.cards-news .cards-news-item-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--brand-blue);
 }
 
-.cards-news .cards-news-item-cta a:any-link::after {
-  content: '';
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  margin-left: 6px;
-  border: solid currentcolor;
-  border-width: 0 1.5px 1.5px 0;
-  transform: translateY(-1px) rotate(-45deg);
+.cards-news .cards-news-item-title + p {
+  margin-top: 6px;
 }

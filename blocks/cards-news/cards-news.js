@@ -62,11 +62,23 @@ async function fetchNews({ source, folders, limit }) {
     .slice(0, limit);
 }
 
+const DATE_FORMAT = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: 'long', day: 'numeric' });
+
 function newsItem(entry) {
   const li = document.createElement('li');
   li.className = 'cards-news-item';
   const body = document.createElement('div');
   body.className = 'cards-news-item-body';
+
+  const date = entryDate(entry);
+  if (date.getTime() > 0) {
+    const time = document.createElement('time');
+    time.className = 'cards-news-item-date';
+    time.dateTime = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+      .map((n) => String(n).padStart(2, '0')).join('-');
+    time.textContent = DATE_FORMAT.format(date);
+    body.append(time);
+  }
 
   const title = document.createElement('h3');
   title.className = 'cards-news-item-title';
@@ -81,15 +93,6 @@ function newsItem(entry) {
     p.textContent = entry.description;
     body.append(p);
   }
-
-  const cta = document.createElement('p');
-  cta.className = 'cards-news-item-cta';
-  const more = document.createElement('a');
-  more.href = entry.path;
-  more.textContent = 'Read more';
-  more.setAttribute('aria-label', `Read more: ${entry.title}`);
-  cta.append(more);
-  body.append(cta);
 
   li.append(body);
   return li;

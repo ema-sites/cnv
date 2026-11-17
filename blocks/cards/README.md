@@ -1,6 +1,6 @@
 # cards
 
-Custom **cards** block. Purpose: grid of image tiles with a title, short description and LEARN MORE link.
+Custom **cards** block. Purpose: grid of image tiles with a title, short description and an optional closing link. When every link in a card goes to the same page, the whole card is the link (the closing "Learn more" is then hidden).
 
 ## Authoring (Document Authoring)
 
@@ -10,7 +10,7 @@ Repeating rows — one row per item. Each item: one row per card: image cell | b
 
 ## Supported variations
 
-No variations.
+- `panel`: a single highlighted card on a light background, with a **bold link** shown as a button (homepage events).
 
 ## Universal Editor fields
 

@@ -10,6 +10,9 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -143,6 +146,29 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies each section's Section Metadata table (Style, plus any other key as a data attribute)
+ * to the section and removes the table, before blocks are decorated.
+ * @param {Element} main The main element
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > .section div.section-metadata').forEach((meta) => {
+    const section = meta.closest('.section');
+    const config = readBlockConfig(meta);
+    Object.entries(config).forEach(([key, value]) => {
+      if (key === 'style') {
+        String(value).split(',').map((s) => toClassName(s.trim())).filter(Boolean)
+          .forEach((style) => section.classList.add(style));
+      } else {
+        section.dataset[toCamelCase(key)] = value;
+      }
+    });
+    const wrapper = meta.parentElement;
+    meta.remove();
+    if (wrapper !== section && !wrapper.children.length) wrapper.remove();
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -151,6 +177,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
@@ -165,6 +192,14 @@ async function loadEager(doc) {
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    // keyboard users can jump past the header straight to the page content
+    main.id = main.id || 'main';
+    main.tabIndex = -1;
+    const skip = document.createElement('a');
+    skip.className = 'skip-link';
+    skip.href = `#${main.id}`;
+    skip.textContent = 'Skip to main content';
+    document.body.prepend(skip);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }

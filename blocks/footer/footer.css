@@ -22,6 +22,15 @@ footer .footer a:hover {
   text-decoration: underline;
 }
 
+footer .footer a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+footer .footer-legal a:focus-visible {
+  outline: var(--brand-focus-ring);
+}
+
 footer .footer img {
   display: block;
   height: auto;
@@ -36,10 +45,10 @@ footer .footer-inner {
 /* dark blue band: logo + address left, CityConnect + social icons right */
 footer .footer-main {
   padding: 20px 15px 30px;
-  background-color: #00467f;
+  background-color: var(--brand-navy);
   color: #fff;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 footer .footer-main .footer-inner {
@@ -87,17 +96,17 @@ footer .footer-social-icons img {
 }
 
 footer .footer-social > p:last-child {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 /* grey bottom bar: links left, copyright right */
 footer .footer-legal {
   padding: 20px 15px;
-  background-color: #d8d8d8;
-  color: #000;
-  font-size: 11px;
-  line-height: 18px;
+  background-color: var(--brand-grey);
+  color: #222;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 footer .footer-legal .footer-inner {
@@ -109,25 +118,19 @@ footer .footer-legal .footer-inner {
 footer .footer-legal ul {
   display: flex;
   flex-wrap: wrap;
+  gap: 4px 24px;
 }
 
-footer .footer-legal li {
-  text-transform: uppercase;
-}
-
-footer .footer-legal li + li::before {
-  content: '|';
-  padding: 0 8px;
-}
-
-footer .footer-legal .footer-inner > p {
-  font-size: 10px;
+footer .footer-legal a:any-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
 }
 
 @media (width >= 900px) {
   footer .footer-main {
-    padding: 40px 50px 22px;
-    font-size: 14px;
+    padding: 48px 50px 32px;
   }
 
   footer .footer-main .footer-inner {
@@ -154,7 +157,7 @@ footer .footer-legal .footer-inner > p {
   }
 
   footer .footer-legal {
-    padding: 16px 50px;
+    padding: 4px 50px;
   }
 
   footer .footer-legal .footer-inner {
